@@ -3,7 +3,7 @@ title: I Found Love for Blogging
 date: "2018-01-31T22:40:32.169Z"
 layout: post
 draft: false
-path: "/posts/i-found-love-for-blogging"
+path: "/blog/i-found-love-for-blogging"
 category: "General"
 tags:
   - "Goals"

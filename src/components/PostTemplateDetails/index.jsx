@@ -7,13 +7,13 @@ import './style.scss';
 
 class PostTemplateDetails extends React.Component {
   render() {
-    const { subtitle, author } = this.props.data.site.siteMetadata;
+    const { copyright, author } = this.props.data.site.siteMetadata;
     const post = this.props.data.markdownRemark;
     const tags = post.fields.tagSlugs;
 
     const homeBlock = (
       <div>
-        <Link className="post-single__home-button" to="/">Back Home</Link>
+        <Link className="post-single__home-button" to="/">Naruth Kongurai</Link>
       </div>
     );
 
@@ -45,17 +45,17 @@ class PostTemplateDetails extends React.Component {
             <h1 className="post-single__title">{post.frontmatter.title}</h1>
             <div className="post-single__body" dangerouslySetInnerHTML={{ __html: post.html }} />
             <div className="post-single__date">
-              <em>Published {moment(post.frontmatter.date).format('D MMM YYYY')}</em>
+              <em>Published on {moment(post.frontmatter.date).format('D MMM YYYY')}</em>
             </div>
           </div>
           <div className="post-single__footer">
             {tagsBlock}
             <hr />
-            <p className="post-single__footer-text">
-              &copy; 2018 {author.name}.
-            </p>
             <Links data={author} />
             {commentsBlock}
+            <p className="post-single__footer-text">
+              {copyright}
+            </p>
           </div>
         </div>
       </div>

@@ -49,6 +49,7 @@ export const pageQuery = graphql`
         copyright
         menu {
           label
+          description
           path
         }
         author {

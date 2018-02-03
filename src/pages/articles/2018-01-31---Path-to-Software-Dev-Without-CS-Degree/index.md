@@ -3,7 +3,7 @@ title: Path to Software Development without CS Degree
 date: "2018-01-31T23:12:32.169Z"
 layout: post
 draft: false
-path: "/posts/path-to-software-dev-without-cs-degree"
+path: "/blog/path-to-software-dev-without-cs-degree"
 category: "General"
 tags:
   - "Goals"

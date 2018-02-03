@@ -10,6 +10,8 @@ class Menu extends React.Component {
       <ul className="menu__list">
         {menu.map(item => (
           <li className="menu__list-item" key={item.path}>
+            <span className="menu__list-description">{item.description}</span>
+            <br />
             <Link
               exact
               to={item.path}

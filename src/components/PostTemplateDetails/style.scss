@@ -99,7 +99,7 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        max-width: 90px;
+        max-width: 150px;
         font-size: $typographic-base-font-size;
         padding: 0 16px;
         height: 35px;
@@ -107,8 +107,8 @@
         text-align: center;
         color: lighten($color-base, 20%);
         background: $color-gray-bg;
-        font-weight: 400;
-        border-radius: 3px;
+        font-weight: 500;
+        border-radius: 7px;
         @include margin-top(1);
         &:hover,
         &:focus {
