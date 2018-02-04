@@ -35,7 +35,7 @@ Things to I am looking to explore in the near future are **Vue.js, GraphQL, Apol
 
 I grew up in Bangkok, Thailand, and spent my childhood years there until I moved to the Seattle, Washington USA in 2014 to attend the University of Washington. Ever since then, I’ve grown a passion for travelling, going as far north as Alaska and Canada, as far as South as Cancun, Mexico, and as far as east of the United States as New York City. Everywhere I visit I often collect Starbucks cards (I emptied out the balance, of course) and also bought souvenirs here and there.
 
-I also love to sample and taste wine. They’re extremely expensive, for someone like me as a university student to afford. But I enjoy working part-time (been doing it since freshman year) on the university’s campus and earn enough money to travel the world, find and taste fabulous Cabernet Sauvignon and Merlot, and buy tech products I wish for.
+I also love to sample and taste wine. They’re extremely expensive, for someone like me as a university student to afford. But I enjoy working part-time (been doing it since freshman year) on the university’s campus and earn enough money to travel the world, find and taste good wines, and buy tech products I wish for.
 
 I once thought of becoming a doctor! But that dream was crushed the moment I failed the medical entrance examination for one of Thailand’s leading medical school. Who knew…maybe I would have gone on to practice medicine instead of becoming a programmer!
 
@@ -50,5 +50,4 @@ Soccer (or football from where I come from) is my heart and soul for entertainme
 - Email: contact@naruthk.com
 - Website: naruthk.com
 
-I can’t wait to have a conversation with anyone of you and to also make new friends!
 :)
