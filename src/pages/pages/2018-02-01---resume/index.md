@@ -4,7 +4,7 @@ layout: page
 path: "/resume"
 ---
 
-If you'd rather download a PDF copy, you may click [here](resume-naruthkongurai.pdf).
+If you'd rather download a PDF copy, you may click [here](Naruth_Kongurai_Resume_Feb3.pdf).
 
 ## TECHNICAL SKILLS
 
@@ -30,35 +30,29 @@ B.A. in **Communications** | Minor in **Informatics**
 
 **Web Developer Intern**
 <br />
-Ogilvy One Worldwide | Bangkok, Thailand | 07/2017 - 09/2017
+Ogilvy One Worldwide | Bangkok, Thailand | July 2017 -­ September 2017
 
-- Worked with clients such as Samsung and Nivea in developing modern and attractive websites, while providing 24/7 support and services a er launch
-- Improved speed and performance of existing websites by utilizing new RESTful services, API calls, and re-writing JavaScript codes from scratch
-- Designed email templates for Samsung in Adobe Photoshop and developed them via Foundation for Email framework
-- Wrote five functional specific documents (FSD) and updated existing ones to keep up with a website’s current features
+- Worked in a team of 3 web developers to create an opinionated, company­oriented web boilerplate for all new projects. The boilerplate speed up initial development processes and made it easier for front end designers and developers to get started with new projects faster.
+- Rebuilt 20 existing email templates with modern “Foundation for Email” framework and ensured that each template worked across multiple devices and platforms by running it through Litmus PutsMail.
+- Led a series of department­wide training which focused on installing and using web frameworks.
+- Documented 5+ functional specific documents. Therefore, I gained immediate exposure to system development life cycle (SDLC) and learned how each project moved from phrase to phrase.
 
-**Android Application Developer Intern**
+**Android Developer Intern**
 <br />
-Bitsee (Startup) | Seattle, Washington USA | 01/2017 - 03/2017
+Bitsee (Startup) | Seattle, Washington USA | January 2017 ­- March 2017
 
-- Designed and developed a single-page website to promote the app (bitsee.ai). The site was built using HTML5 Boilerplate, Bootstrap, and CSS3 functionalities (like Flexbox)
-- Developed interactive welcome screen and a tutorial section that guides first-time users to feel more familiar with the app
-- Updated existing test scripts to reduce bugs and provide stability
+- Managed the improvement and inclusion of new features on the Android app, including the development of an interactive welcome screen that was built in 2 months.
+- Volunteered beyond scope of job description to...
+  - Develop startup’s first official website (bitsee.ai). The site was built with mainly React and SASS.
+  - Manage the migration of website content from HostGator to DigitalOcean, a cloud service platform.
+  - Increase brand awareness by incorporating SEO. “Bitsee.ai” reached 1st in Google search ranking.
 
 **Android Application / Web Developer Intern**
 <br />
 CP All | Bangkok, Thailand | 07/2016 - 09/2016
 
-- Wrote PHP scripts and SQL queries to fetch and organize satisfaction results users submitted from the mobile app that I developed
-- Upgraded company’s existing web development platform to today’s standards, like by utilizing Webpack, NPM, and Gulp
-- Built a simple back-end dashboard for Managers and CEO to view satisfaction results
-- Developed an Employee Satisfaction mobile application used internally in more than 9000+ 7-Eleven convenience stores
-
-## PROJECTS
-
-- Institute of Electrical and Electronics Engineer (IEEE) Website | [students.washington.edu/hknieee](students.washington.edu/hknieee)
-- Fun Color Picker Web App | [codepen.io/naruthk/pen/LzMwWJ](codepen.io/naruthk/pen/LzMwWJ)
-- Food Scout Mobile App | [github.com/naruthk/mobile-uw-food-app](github.com/naruthk/mobile-uw-food-app)
-- Daily Notes – Distraction-Free” Mobile App | [Available on the App Store](https://itunes.apple.com/us/app/daily-notes-distraction-free/id1299564920?ls=1&mt=8)
+- Optimized website performances by utilizing Gulp and rewriting previous JavaScript codes. In effect, site’s load time was increased by 50% and analysis showed visitors was increased by 70% in one month.
+- Developed an Android app useful for inputting survey responses. Used nationwide by employees working for 7­Eleven convenience stores (8000+ as of 2016).
+- Led a tutorial workshop on how to navigate and use the app. 50 people attended, including Executives.
 
 ---
