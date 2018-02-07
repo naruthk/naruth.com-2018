@@ -4,15 +4,15 @@ module.exports = {
     title: 'Naruth Kongurai | Front End Web Developer',
     subtitle: 'Front End Developer.',
     copyright: '© 2017-2018 | Naruth Kongurai. Built with Gatsby.JS, React, and ❤️',
-    disqusShortname: '',
+    disqusShortname: 'naruthk',
     menu: [
       {
-        label: 'Read my story',
+        label: 'Read my story 👍',
         description: 'Interested in knowing me better?',
         path: '/about/'
       },
       {
-        label: 'Contact me! ❤️',
+        label: 'Contact me! 😃',
         description: 'Want to hire / talk to me?',
         path: '/contact/'
       },
