@@ -13,5 +13,5 @@ Here are some information about how this website came to be:
 
 - [ ] Integrate **Paper.js** to my homepage
 - [ ] Remove unused components that came with the Lumen theme
-- [ ] More colors
-- [ ] Give life (animation) to this website
+- [X] More colors
+- [X] Give life (animation) to this website

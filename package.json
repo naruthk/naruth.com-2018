@@ -1,5 +1,5 @@
 {
-  "version": "2.0.2",
+  "version": "1.0",
   "name": "naruthk",
   "description": "Official website of Naruth Kongurai",
   "main": "n/a",
@@ -17,6 +17,8 @@
     "blog",
     "website",
     "naruth",
+    "frontend",
+    "developer",
     "kongurai"
   ],
   "author": "Naruth Kongurai <contact@naruthk.com>",

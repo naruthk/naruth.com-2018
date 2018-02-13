@@ -2,7 +2,7 @@
 title: My Internship Experiences
 date: "2018-02-01T14:10:59.169Z"
 layout: post
-draft: false
+draft: true
 path: "/blog/experience-of-technical-intern"
 category: "General"
 tags:
