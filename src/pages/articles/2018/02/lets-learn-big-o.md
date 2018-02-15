@@ -107,6 +107,12 @@ This sort of thinking and evaluating the frequency in which an algorithm does so
 - **Drop the constant**: An `O(2N)` or `O(3N)` is the same as `O(N)`.
 - **Use the dominant term**: This mean that if your runtime happens to be `O(N^2 + N)`, just say that your runtime is actually `O(N^2)`. But hey, if you runtime is `O(A^2 + B)`, then you can't really drop anything!
 - **Special Case: O(log N)**: Usually when you're dealing with binary search and merge sort algorithms, their best-case runtime will be `O(log N)`. Why? Short answer: when the number of elements is split in half each time (say hello to merge sort and binary search!), the runtime will be `O(log N)`.
+- **O(1) for Sequence Constant-Time Statements**: The runtime for the following code block is just O(1) because it runs in constant time.
+  ```java
+  if (arrayA[i] > arrayB[i]) {
+    System.out.println(arrayA[i]);
+  }
+  ```
 
 ## Resources
 
