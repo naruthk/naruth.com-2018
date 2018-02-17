@@ -68,4 +68,5 @@
 .icon-slack:before { content: '\f198'; } /* '' */
 .icon-paper-plane:before { content: '\f1d8'; } /* '' */
 .icon-whatsapp:before { content: '\f232'; } /* '' */
-.icon-odnoklassniki:before { content: '\f263'; } /* '' */
+.icon-odnoklassniki:before { content: '\f263'; } /* '' */'
+.icon-codepen:before { content: '\f32c'; } /* '' */

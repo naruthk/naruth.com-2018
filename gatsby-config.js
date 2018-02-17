@@ -8,7 +8,7 @@ module.exports = {
     menu: [
       {
         label: 'Read my story 👍',
-        description: 'Interested in knowing me better?',
+        description: 'Interested in knowing about me more?',
         path: '/about/'
       },
       {
@@ -30,6 +30,7 @@ module.exports = {
       github: 'naruthk',
       rss: '#',
       vk: '#',
+      codepen: 'naruthk',
       linkedin: 'naruthkongurai'
     }
   },
