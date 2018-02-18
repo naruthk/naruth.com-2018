@@ -28,6 +28,8 @@ class IndexRoute extends React.Component {
       items.push(<Post data={post} key={post.node.fields.slug} />);
     });
 
+    const divStyle = { margin: '30px' };
+
     return (
       <div>
         <Helmet>
@@ -70,11 +72,13 @@ class IndexRoute extends React.Component {
               {items}
             </div>
           </div>
-          <p className="content__inner">
-            <hr />
-            {copyright}
-            <Links data={author} />
-          </p>
+          <div style={divStyle}>
+            <p className="content__inner">
+              <hr />
+              {copyright}
+              <Links data={author} />
+            </p>
+          </div>
         </div>
       </div>
     );

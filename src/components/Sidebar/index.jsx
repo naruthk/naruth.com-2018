@@ -17,13 +17,15 @@ class Sidebar extends React.Component {
     const authorBlock = (
       <div>
         <Link to="/">
-          <img
+          <center>
+            <img
             src={profilePic}
             className="sidebar__author-photo animated fadeInDown finite"
             width="195"
             height="195"
             alt={author.name}
-          />
+            />
+          </center>
         </Link>
         <h3>Hey, I’m <Link to="/">Naruth Kongurai</Link>,<br />a Front End Web Developer from Bangkok, Thailand.</h3>
         <hr />

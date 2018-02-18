@@ -1,9 +1,15 @@
 .tile { 
-  flex-basis: 45%;
+  // flex-basis: 45%;
+  flex-basis: 30%;
   padding: 10px;
 
   @media screen and (max-width: 700px) {
     flex-basis: auto;
+    flex-grow: 1;
+  }
+
+  @media screen and (max-width: 800px) {
+    flex-basis: 50%;
   }
 
   transition: all 0.5s;
@@ -36,7 +42,7 @@
     text-align: center;
     max-height: auto;
     @media screen and (min-width: 900px) {
-        max-height: 220px;
+        // max-height: 220px;
     }
     margin-bottom: 1rem;
     vertical-align: middle;
