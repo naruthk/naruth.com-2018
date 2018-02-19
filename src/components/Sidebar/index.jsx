@@ -19,11 +19,11 @@ class Sidebar extends React.Component {
         <Link to="/">
           <center>
             <img
-            src={profilePic}
-            className="sidebar__author-photo animated fadeInDown finite"
-            width="195"
-            height="195"
-            alt={author.name}
+              src={profilePic}
+              className="sidebar__author-photo animated fadeInDown finite"
+              width="195"
+              height="195"
+              alt={author.name}
             />
           </center>
         </Link>

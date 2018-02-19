@@ -5,7 +5,6 @@ import Sidebar from '../components/Sidebar';
 import Project from '../components/Project';
 import './projects.scss';
 
-// import Paper from '../../node_modules/paper/dist/paper-full';
 import Links from '../components/Links';
 
 import PhotoWebTemplate from './project-web-free-template.png';
@@ -19,6 +18,8 @@ import PhotoMiloHomepage from './ui-milo.png';
 import PhotoSHOWDCMallHomepage from './ui-show-dc-mall.png';
 import PhotoDCVoteApp from './ui-mobile-dcvote.png';
 
+import PhotoCSSOnlyInstagram from './ui-codepen-instagram-logo.png';
+
 class IndexRoute extends React.Component {
   render() {
     const items = [];
@@ -30,8 +31,7 @@ class IndexRoute extends React.Component {
 
     const divStyle = { margin: '30px' };
 
-    return (
-      <div>
+    return <div>
         <Helmet>
           <title>{title}</title>
           <meta name="description" content={subtitle} />
@@ -39,32 +39,28 @@ class IndexRoute extends React.Component {
         <Sidebar {...this.props} />
         <div className="content">
           <div className="content__inner">
-            
-            {/* <canvas id="home-sketch" resize /> */}
-            
             <div id="projects" className="animated pulse finite">
-          
-              <Project title="Responsive HTML Portfolio Theme" tools="Bootstrap, HTML5, CSS3" url="https://github.com/naruthk/web-theme-portfolio" img={PhotoWebTemplate} />
+              <Project title="Responsive HTML Portfolio Theme" tools="Bootstrap, HTML5, CSS3" url="responsive-html-portfolio-theme" img={PhotoWebTemplate} />
 
-              <Project title="SHOW DC Homepage" tools="CSS, JavaScript" url="https://www.showdc.co.th/" img={PhotoSHOWDCMallHomepage} />
+              <Project title="Interactive Color Picker" tools="Flexbox, JavaScript" url="interactive-color-picker-tool" img={PhotoColorPicker} />
 
-              <Project title="Interactive Color Picker" tools="Flexbox, JavaScript" url="https://codepen.io/naruthk/full/LzMwWJ/" img={PhotoColorPicker} />
+              <Project title="Digital Clock New Tab" tools="Chrome Extension, JavaScript" url="chrome-extension-digital-clock" img={PhotoDigitalClockTab} />
 
-              <Project title="Digital Clock New Tab" tools="Chrome Extension, JavaScript" url="https://chrome.google.com/webstore/detail/beautiful-digital-clock-w/jdnjafgehddcpoahelddbflpmoeinaed?hl=en-US&gl=US" img={PhotoDigitalClockTab} />
+              <Project title="SHOW DC Homepage" tools="CSS, JavaScript" url="show-dc-mall-website" img={PhotoSHOWDCMallHomepage} />
+
+              <Project title="CSS-Only Instagram Logo" tools="CodePen, CSS" url="codepen-instagram-logo" img={PhotoCSSOnlyInstagram} />
 
               <Project title="Milo Homepage" tools="CSS, HTML" url="https://milo.co.th/" img={PhotoMiloHomepage} />
 
               <Project title="Nivea Blogging Section" tools="SiteCore CMS, CSS, JavaScript" url="http://www.nivea.co.th/products/campaigns/ext/th-TH/NIVEA-Oil-In-Lotion" img={PhotoNiveaBlog} />
 
-              <Project title="Liverpool Soccer Fixtures" tools="Python, CLI" url="https://github.com/naruthk/pcli-liverpool-updates" img={PhotoSoccerPyCli} />
-
-              <Project title="Email Template" tools="Foundation framework, CSS" img={PhotoSamsungEmailTemplate} />
-
-              <Project title="Daily Notes App" tools="Swift, iOS" url="https://itunes.apple.com/us/app/daily-notes-distraction-free/id1299564920?ls=1&mt=8" img={PhotoDailyNotesApp} />
+              <Project title="Daily Notes App" tools="Swift, iOS" url="daily-notes-ios-app" img={PhotoDailyNotesApp} />
 
               <Project title="DC Vote App" tools="Java, Android" url="http://www.cpall.co.th/" img={PhotoDCVoteApp} />
 
+              <Project title="Liverpool Soccer Fixtures" tools="Python, CLI" url="https://github.com/naruthk/pcli-liverpool-updates" img={PhotoSoccerPyCli} />
 
+              <Project title="Email Template" tools="Foundation framework, CSS" url="email-template-for-samsung-asia" img={PhotoSamsungEmailTemplate} />
             </div>
             <div>
               <hr />
@@ -81,7 +77,6 @@ class IndexRoute extends React.Component {
           </div>
         </div>
       </div>
-    );
   }
 }
 
