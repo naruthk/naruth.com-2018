@@ -16,3 +16,19 @@
         @include margin(0, 0, 1);
     }
 }
+
+@media screen and (max-width: 683px) {
+  .hidden-xs {
+    display: none;
+  }
+  .show-xs {
+    display: block;
+    @include margin-bottom(1.3);
+  }
+}
+
+@media screen and (min-width: 683px) {
+  .show-xs {
+    display: none;
+  }
+}

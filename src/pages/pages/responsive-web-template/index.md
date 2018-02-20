@@ -25,8 +25,6 @@ I recommend you see the demo in [full screen](https://codepen.io/naruthk/full/wr
 
 ## Development
 
-## Development
-
 If you're interested in making changes in development mode to better suit certain aspects of design that you want, then please kindy follow the instructions below carefully.
 
 ### Requirements

@@ -164,3 +164,64 @@
         }
     }
 }
+
+.post-share {
+  margin: 0;
+  left: 0;
+
+  a {
+    color: #ffffff;
+    font-size: 1.5em;
+    padding: 10px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    
+    i { 
+      color: #ffffff;
+    }
+
+  }
+
+  .icon-facebook-bg {
+    background-color: #3b5998;
+  }
+  .icon-twitter-bg {
+    background-color: #83c3f3;
+  }
+  .icon-linkedin-bg {
+    background-color: #0077b5;
+  }
+
+}
+
+.post-share-fixed {
+  position: fixed;
+  width: 50px;
+  z-index: 100000000;
+  
+}
+
+@media screen and (min-width: 800px) {
+  .post-share {
+    top: 40%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .post-share {
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    a {
+      margin-right: 4px;
+      i {
+        font-size: 0.77em;
+      }
+    }
+  }
+  .post-share-fixed {
+    width: 100%;
+  }
+}

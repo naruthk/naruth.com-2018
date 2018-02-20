@@ -9,12 +9,12 @@ module.exports = {
     menu: [
       {
         label: 'Read my story 👍',
-        description: 'Interested in knowing about me more?',
+        description: 'Interested in learning about me?',
         path: '/about/',
       },
       {
         label: 'Contact me! 😃',
-        description: 'Want to hire / talk to me?',
+        description: 'Want to hire / talk with me?',
         path: '/contact/',
       },
       {
