@@ -9,6 +9,14 @@
         @include line-height(2);
         @include margin-top(0);
         @include margin-bottom(1.45);
+        background-image: linear-gradient(lighten(#2c2c2c, 10), #2c2c2c);
+        padding: 15px;
+        color: #ffffff;
+        overflow: hidden;
+        -ms-transform: rotate(-2deg); /* IE 9 */
+        -webkit-transform: rotate(-2deg); /* Safari 3-8 */
+        transform: rotate(-2deg);
+        @include long-shadow(text, rgb(110, 110, 110), 100, false, false, left);
     }
     &__body {
         font-size: $typographic-base-font-size;

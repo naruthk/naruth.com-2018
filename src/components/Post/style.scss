@@ -15,9 +15,16 @@
             color: $color-base;
             &:hover,
             &:focus {
-                color: $color-base;
-                border-bottom: 1px solid $color-base;
+                // color: $color-base;
+                color: #ae895d;
+                font-weight: bold;
+                border-bottom: 10px solid #ae895d;
             }
+        }
+        &:hover {
+          -ms-transform: rotate(-2deg); /* IE 9 */
+          -webkit-transform: rotate(-2deg); /* Safari 3-8 */
+          transform: rotate(-2deg);
         }
     }
     &__description {

@@ -14,7 +14,7 @@ module.exports = {
       },
       {
         label: 'Contact me! 😃',
-        description: 'Want to hire / talk with me?',
+        description: 'Conversation matters!',
         path: '/contact/',
       },
       {

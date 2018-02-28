@@ -10,11 +10,11 @@ import Links from '../components/Links';
 import PhotoWebTemplate from './project-web-free-template.png';
 import PhotoColorPicker from './project-js-color-picker.png';
 import PhotoDigitalClockTab from './ui-chrome-extension-digital-clock.png';
-import PhotoNiveaBlog from './ui-nivea.png';
+// import PhotoNiveaBlog from './ui-nivea.png';
 import PhotoSoccerPyCli from './ui-python-soccer.png';
 import PhotoDailyNotesApp from './ui-daily-notes-app.png';
 import PhotoSamsungEmailTemplate from './ui-samsung-email.png';
-import PhotoMiloHomepage from './ui-milo.png';
+// import PhotoMiloHomepage from './ui-milo.png';
 import PhotoSHOWDCMallHomepage from './ui-show-dc-mall.png';
 import PhotoDCVoteApp from './ui-mobile-dcvote.png';
 
@@ -31,7 +31,8 @@ class IndexRoute extends React.Component {
 
     const divStyle = { margin: '30px' };
 
-    return <div>
+    return (
+      <div>
         <Helmet>
           <title>{title}</title>
           <meta name="description" content={subtitle} />
@@ -40,27 +41,29 @@ class IndexRoute extends React.Component {
         <div className="content">
           <div className="content__inner">
             <div id="projects" className="animated pulse finite">
-              <Project title="Responsive HTML Portfolio Theme" tools="Bootstrap, HTML5, CSS3" url="responsive-html-portfolio-theme" img={PhotoWebTemplate} />
 
-              <Project title="Interactive Color Picker" tools="Flexbox, JavaScript" url="interactive-color-picker-tool" img={PhotoColorPicker} />
+              <Project title="Portfolio Theme" tools="Bootstrap, HTML5, CSS3" url="responsive-html-portfolio-theme" img={PhotoWebTemplate} />
 
-              <Project title="Digital Clock New Tab" tools="Chrome Extension, JavaScript" url="chrome-extension-digital-clock" img={PhotoDigitalClockTab} />
+              <Project title="Digital Clock Tab" tools="Chrome Extension" url="chrome-extension-digital-clock" img={PhotoDigitalClockTab} />
+
+              <Project title="Color Picker" tools="Flexbox, JavaScript" url="interactive-color-picker-tool" img={PhotoColorPicker} />
 
               <Project title="SHOW DC Homepage" tools="CSS, JavaScript" url="show-dc-mall-website" img={PhotoSHOWDCMallHomepage} />
 
-              <Project title="CSS-Only Instagram Logo" tools="CodePen, CSS" url="codepen-instagram-logo" img={PhotoCSSOnlyInstagram} />
+              <Project title="Instagram Logo" tools="CodePen, CSS" url="codepen-instagram-logo" img={PhotoCSSOnlyInstagram} />
 
-              <Project title="Milo Homepage" tools="CSS, HTML" url="https://milo.co.th/" img={PhotoMiloHomepage} />
+              <Project title="Email Template" tools="Foundation, CSS" url="email-template-for-samsung-asia" img={PhotoSamsungEmailTemplate} />
 
-              <Project title="Nivea Blogging Section" tools="SiteCore CMS, CSS, JavaScript" url="http://www.nivea.co.th/products/campaigns/ext/th-TH/NIVEA-Oil-In-Lotion" img={PhotoNiveaBlog} />
+              {/* <Project title="Milo Homepage" tools="CSS, HTML" url="https://milo.co.th/" img={PhotoMiloHomepage} /> */}
+
+              {/* <Project title="Nivea Blogging Section" tools="SiteCore CMS, CSS, JavaScript" url="http://www.nivea.co.th/products/campaigns/ext/th-TH/NIVEA-Oil-In-Lotion" img={PhotoNiveaBlog} /> */}
 
               <Project title="Daily Notes App" tools="Swift, iOS" url="daily-notes-ios-app" img={PhotoDailyNotesApp} />
 
               <Project title="DC Vote App" tools="Java, Android" url="http://www.cpall.co.th/" img={PhotoDCVoteApp} />
 
-              <Project title="Liverpool Soccer Fixtures" tools="Python, CLI" url="https://github.com/naruthk/pcli-liverpool-updates" img={PhotoSoccerPyCli} />
+              <Project title="Soccer Fixtures" tools="Python, Command Line Interface" url="https://github.com/naruthk/pcli-liverpool-updates" img={PhotoSoccerPyCli} />
 
-              <Project title="Email Template" tools="Foundation framework, CSS" url="email-template-for-samsung-asia" img={PhotoSamsungEmailTemplate} />
             </div>
             <div>
               <hr />
@@ -77,6 +80,7 @@ class IndexRoute extends React.Component {
           </div>
         </div>
       </div>
+    );
   }
 }
 

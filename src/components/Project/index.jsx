@@ -1,20 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from 'gatsby-link'
+import Link from 'gatsby-link';
 import './style.scss';
 
 const Project = (props) => {
-
-  const isOutsideLink = String(props.url).startsWith("http");
+  const isOutsideLink = String(props.url).startsWith('http');
   const url = `/${props.url}`;
 
   const output = (
     <div>
       <img className="img-responsive" src={props.img} alt={props.title} />
-      <span className="description">{props.title}<br /><span className="tools">{props.tools}</span>
-      </span>
+      <h4>{props.title}</h4>
+      <h5>{props.tools}</h5>
     </div>
-  )
+  );
 
   return (
     <div className="tile">
