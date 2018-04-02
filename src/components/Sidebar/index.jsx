@@ -3,7 +3,7 @@ import get from 'lodash/get';
 import Link from 'gatsby-link';
 import Menu from '../Menu';
 import Links from '../Links';
-import profilePic from '../../pages/me.png';
+import profilePic from '../../assets/images/me.png';
 import './style.scss';
 
 class Sidebar extends React.Component {
@@ -27,7 +27,7 @@ class Sidebar extends React.Component {
             />
           </center>
         </Link>
-        <h3>Hey, I’m <Link to="/">Naruth Kongurai</Link>,<br />a Front End Web Developer from Bangkok, Thailand.</h3>
+        <h3>Hey, I’m <Link to="/">Naruth Kongurai</Link>,<br />a Web and Mobile Application Developer!</h3>
         <hr />
         {/* { isHomePage ? (
           <h1 className="sidebar__author-title">

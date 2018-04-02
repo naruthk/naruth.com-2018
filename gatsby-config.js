@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
     url: 'http://www.naruthk.com',
-    title: 'Naruth Kongurai | Front End Web Developer',
-    subtitle: 'Front End Developer.',
+    title: 'Naruth Kongurai | Web Developer',
+    subtitle: 'Web Developer.',
     copyright:
-      '© 2017-2018 | Naruth Kongurai. Built with Gatsby.JS, React, and ❤️',
+      '© 2018 | Naruth Kongurai. Built with Gatsby.JS, React, and ❤️',
     disqusShortname: 'naruthk',
     menu: [
       {
@@ -14,18 +14,18 @@ module.exports = {
       },
       {
         label: 'Contact me! 😃',
-        description: 'Conversation matters!',
+        description: 'Let us get in touch!',
         path: '/contact/',
       },
-      {
-        label: 'View list of experiences',
-        description: 'Are you looking for my resume?',
-        path: '/resume/',
-      },
+      // {
+      //   label: 'View list of experiences',
+      //   description: 'Are you looking for my resume?',
+      //   path: '/resume/',
+      // },
     ],
     author: {
       name: 'Naruth Kongurai',
-      email: 'contact@naruthk.com',
+      email: 'nkongurai@gmail.com',
       telegram: '#',
       twitter: 'naruthkongurai',
       github: 'naruthk',

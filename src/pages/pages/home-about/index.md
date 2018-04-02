@@ -4,13 +4,16 @@ layout: page
 path: "/about"
 ---
 
-Hello everyone. My name is Naruth Kongurai. People sometimes refer to me as either Naruth or Sam.
+Hello everyone. My name is Naruth Kongurai. I also go by Sam.
 
-I am an aspiring Junior Front-End Web Developer, writing **HTML5**, **CSS3**, and **JavaScript** codes in my daily routine. Graduating this Spring 2018 with a Degree in **Communication** and a Minor in **Informatics**, I am currently looking for jobs!
+I am a web developer, specializing primarily in **HTML5**, **CSS3**, **JavaScript**, and **React**. Graduating this Spring 2018 with a degree in **Communications** and a minor in **Informatics**, I am currently looking for jobs!
 
 I’ve done a couple of technical internships over the course of my academic career. At **OgilvyOne Worldwide**, I took graphic designs that clients like Samsung and Nivea created and turned them into fully functional websites. At a Seattle-based startup called **Bitsee**, I collaborated with some of the most smartest folks I’ve ever known. Together we were developing an Android application that searches for and discover videos from around the world. At **CP All** (Thailand), I created an Android mobile application to allow employees a convenient way to conduct employee reviews and gather results.
 
-My overall technology skills include **HTML5, CSS3, JavaScript, React framework, PHP, Python, Java, and Swift**.
+Here is a summary of technologies:
+
+- **Programming Languages:** JavaScript, Java, Python, Swift, Kotlin
+- **Web Development:** React, Redux, React Native, Express, MongoDB, Sass, Webpack, Gulp, Git, GraphQL, Pug, ES6, jQuery, SVG, Bootstrap, CSS3
 
 ### Projects
 
@@ -27,8 +30,6 @@ I also love to collaborate with others on GitHub. Here are the projects I am cur
 - **freeCodeCamp**: I wrote multiple guides for concepts in HTML, CSS, and the Java programming language.
 - **LearnJavaScript**: A currently private repository created by Zell Liew who teaches JavaScript and writes numerous articles about the language. I help him edit several content and ensure the course will be fully complete.
 
-Things to I am looking to explore in the near future are **Vue.js, GraphQL, Apollo, MongoDB, and PrettierJS.**
-
 ---
 
 ## The Non-Geek Story
@@ -40,14 +41,5 @@ I also love to sample and taste wine. They’re extremely expensive, for someone
 I once thought of becoming a doctor! But that dream was crushed the moment I failed the medical entrance examination for one of Thailand’s leading medical school. Who knew…maybe I would have gone on to practice medicine instead of becoming a programmer!
 
 Soccer (or football from where I come from) is my heart and soul for entertainment. I support Liverpool FC, arguably one of Europe’s best soccer team. Here in Seattle, I joined the LFC Seattle Supporter group where they meet every once in a while to watch matches together.
-
----
-
-## Where To Find Me
-
-- Twitter: naruthkongurai
-- LinkedIn: naruthkongurai
-- Email: contact@naruthk.com
-- Website: naruthk.com
 
 :)

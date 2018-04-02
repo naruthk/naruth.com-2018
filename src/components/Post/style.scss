@@ -21,11 +21,6 @@
                 border-bottom: 10px solid #ae895d;
             }
         }
-        &:hover {
-          -ms-transform: rotate(-2deg); /* IE 9 */
-          -webkit-transform: rotate(-2deg); /* Safari 3-8 */
-          transform: rotate(-2deg);
-        }
     }
     &__description {
         font-size: $typographic-base-font-size;

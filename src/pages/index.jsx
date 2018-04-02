@@ -3,22 +3,21 @@ import Helmet from 'react-helmet';
 import Post from '../components/Post';
 import Sidebar from '../components/Sidebar';
 import Project from '../components/Project';
-import './projects.scss';
-
 import Links from '../components/Links';
 
-import PhotoWebTemplate from './project-web-free-template.png';
-import PhotoColorPicker from './project-js-color-picker.png';
-import PhotoDigitalClockTab from './ui-chrome-extension-digital-clock.png';
-// import PhotoNiveaBlog from './ui-nivea.png';
-import PhotoSoccerPyCli from './ui-python-soccer.png';
-import PhotoDailyNotesApp from './ui-daily-notes-app.png';
-import PhotoSamsungEmailTemplate from './ui-samsung-email.png';
-// import PhotoMiloHomepage from './ui-milo.png';
-import PhotoSHOWDCMallHomepage from './ui-show-dc-mall.png';
-import PhotoDCVoteApp from './ui-mobile-dcvote.png';
+// Photos
+import PhotoWebTemplate from '../assets/images/project-web-free-template.png';
+import PhotoColorPicker from '../assets/images/project-js-color-picker.png';
+import PhotoDigitalClockTab from '../assets/images/ui-chrome-extension-digital-clock.png';
+import PhotoSoccerPyCli from '../assets/images/ui-python-soccer.png';
+import PhotoDailyNotesApp from '../assets/images/ui-daily-notes-app.png';
+import PhotoSamsungEmailTemplate from '../assets/images/ui-samsung-email.png';
+import PhotoSHOWDCMallHomepage from '../assets/images/ui-show-dc-mall.png';
+import PhotoDCVoteApp from '../assets/images/ui-mobile-dcvote.png';
+import PhotoCSSOnlyInstagram from '../assets/images/ui-codepen-instagram-logo.png';
 
-import PhotoCSSOnlyInstagram from './ui-codepen-instagram-logo.png';
+// CSS Files
+import './index.scss';
 
 class IndexRoute extends React.Component {
   render() {
@@ -54,15 +53,15 @@ class IndexRoute extends React.Component {
 
               <Project title="Email Template" tools="Foundation, CSS" url="email-template-for-samsung-asia" img={PhotoSamsungEmailTemplate} />
 
-              {/* <Project title="Milo Homepage" tools="CSS, HTML" url="https://milo.co.th/" img={PhotoMiloHomepage} /> */}
-
-              {/* <Project title="Nivea Blogging Section" tools="SiteCore CMS, CSS, JavaScript" url="http://www.nivea.co.th/products/campaigns/ext/th-TH/NIVEA-Oil-In-Lotion" img={PhotoNiveaBlog} /> */}
-
               <Project title="Daily Notes App" tools="Swift, iOS" url="daily-notes-ios-app" img={PhotoDailyNotesApp} />
 
               <Project title="DC Vote App" tools="Java, Android" url="http://www.cpall.co.th/" img={PhotoDCVoteApp} />
 
               <Project title="Soccer Fixtures" tools="Python, Command Line Interface" url="https://github.com/naruthk/pcli-liverpool-updates" img={PhotoSoccerPyCli} />
+
+              {/* <Project title="Milo Homepage" tools="CSS, HTML" url="https://milo.co.th/" img={PhotoMiloHomepage} /> */}
+
+              {/* <Project title="Nivea Blogging Section" tools="SiteCore CMS, CSS, JavaScript" url="http://www.nivea.co.th/products/campaigns/ext/th-TH/NIVEA-Oil-In-Lotion" img={PhotoNiveaBlog} /> */}
 
             </div>
             <div>

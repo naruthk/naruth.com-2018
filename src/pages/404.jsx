@@ -1,6 +1,6 @@
 import React from 'react';
 import Sidebar from '../components/Sidebar';
-import PlantPic from './plant.jpeg';
+import PlantPic from '../assets/images/plant404.jpeg';
 
 class NotFoundRoute extends React.Component {
   render() {
