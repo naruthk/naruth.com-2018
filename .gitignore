@@ -1,7 +1,18 @@
 node_modules/
+<<<<<<< HEAD
 public
 .gatsby-context.js
 .DS_Store
 .intermediate-representation/
 .cache/
 yarn.lock
+=======
+.cache/
+public/
+npm-debug.log
+.eslintcache
+.gatsby-context.js
+.idea
+gatsby-starter-lumen.iml
+yarn.lock
+>>>>>>> 8bfba8b326e37bb4520e452241d901393b0bc739
