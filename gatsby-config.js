@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Naruth Kongurai | Full stack web and mobile applications developer",
     author: "Naruth Kongurai",
-    description: "Hi, I'm Sam. I am actively looking for a full-time entry role in any cities across the United States."
+    description: "Hi, I am Sam. I am actively looking for a full-time entry role in any cities across the United States."
   },
   pathPrefix: '/',
   plugins: [

@@ -1,7 +1,7 @@
 {
   "name": "naruthk",
   "description": "Website of Naruth Kongurai, a full stack web and mobile applications developer",
-  "version": "1.0.0",
+  "version": "1.5",
   "author": "Naruth Kongurai",
   "dependencies": {
     "gatsby": "^1.9.243",
@@ -18,15 +18,14 @@
     "gatsby-transformer-sharp": "^1.6.22",
     "lodash": "^4.17.5"
   },
-  "homepage": "https://www.naruthk.com",
   "keywords": [
-    "gatsby"
+    "full stack", "website", "developer", "mobile", "university of washington"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "repository": "git+https://github.com/naruthk/naruthk.com.git"
+    "url": "https://github.com/naruthk/naruthk.com.git"
   },
   "scripts": {
     "dev": "gatsby develop",
