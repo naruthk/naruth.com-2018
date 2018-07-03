@@ -27,10 +27,7 @@
   ],
   "license": "MIT",
   "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/naruthk/naruthk.com.git"
-  },
+  "repository": "git+https://github.com/naruthk/naruthk.com.git",
   "scripts": {
     "dev": "gatsby develop",
     "develop": "gatsby develop",
