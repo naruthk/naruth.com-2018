@@ -19,7 +19,11 @@
     "lodash": "^4.17.5"
   },
   "keywords": [
-    "full stack", "website", "developer", "mobile", "university of washington"
+    "full stack",
+    "website",
+    "developer",
+    "mobile",
+    "university of washington"
   ],
   "license": "MIT",
   "main": "n/a",
@@ -32,5 +36,8 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "deploy": "gatsby build --prefix-links && gh-pages -d public"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
   }
 }
