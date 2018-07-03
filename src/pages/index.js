@@ -156,8 +156,8 @@ class Homepage extends React.Component {
                             <li><span className="icon style2 major fa-flash"></span></li>
                             <h3><strong>Extracurriculars</strong></h3>
                             <p>
-                              <a href="#"><strong>uDev</strong></a> - Tech Advisor<br/>
-                              <a href="#"><strong>Chingu 5 cohort</strong></a> - Developer<br />
+                              <a href="http://udev.dubstech.org/"><strong>uDev</strong></a> - Tech Advisor<br/>
+                              <a href="https://chingu.io/"><strong>Chingu 5 cohort</strong></a> - Developer<br />
                               <a href="#"><strong>Seattle xCoders</strong></a> - Speaker<br />
                             </p>
                             <ul className="actions uniform">
