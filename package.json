@@ -1,8 +1,23 @@
 {
+  "version": "1.5.0",
   "name": "naruthk",
   "description": "Website of Naruth Kongurai, a full stack web and mobile applications developer",
-  "version": "1.5",
   "author": "Naruth Kongurai",
+  "keywords": [
+    "full stack",
+    "website",
+    "developer",
+    "mobile",
+    "university of washington"
+  ],
+  "scripts": {
+    "dev": "gatsby develop",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-links && gh-pages -d public"
+  },
+  "license": "MIT",
+  "main": "n/a",
   "dependencies": {
     "gatsby": "^1.9.251",
     "gatsby-link": "^1.6.40",
@@ -18,22 +33,7 @@
     "gatsby-transformer-sharp": "^1.6.22",
     "lodash": "^4.17.5"
   },
-  "keywords": [
-    "full stack",
-    "website",
-    "developer",
-    "mobile",
-    "university of washington"
-  ],
-  "license": "MIT",
-  "main": "n/a",
   "repository": "git+https://github.com/naruthk/naruthk.com.git",
-  "scripts": {
-    "dev": "gatsby develop",
-    "develop": "gatsby develop",
-    "build": "gatsby build",
-    "deploy": "gatsby build --prefix-links && gh-pages -d public"
-  },
   "devDependencies": {
     "gh-pages": "^1.2.0"
   }
