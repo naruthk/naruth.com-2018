@@ -509,7 +509,21 @@
 			img {
 				width: 100%;
 			}
-		}
+    }
+    
+    @media screen and (max-width:980px) {
+      img {
+        max-width: 70% !important;
+        margin: auto;
+      }
+    }
+
+    &.smaller {
+      max-width: 350px !important;
+      margin: auto;
+      padding-bottom: 30px;
+    }
+
 	}
 
 /* List */

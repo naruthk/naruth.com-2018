@@ -40,13 +40,13 @@ class Homepage extends React.Component {
                           <div className="grid-wrapper">
                             <div className="col-3">
                                 <Link to="website-template">
-                                  <span className="image fit"><img src={project_website_template} alt="" /></span>
+                                  <span className="image fit"><img class="img__project" src={project_website_template} alt="" /></span>
                                   <h4>HTML Portfolio Template for One-Page Site</h4>
                                 </Link>
                             </div>
                             <div className="col-3">
                               <Link to="digital-clock-chrome">
-                                <span className="image fit"><img src={project_digital_clock} alt="" /></span>
+                                <span className="image fit"><img class="img__project" src={project_digital_clock} alt="" /></span>
                                 <h4>Digital Clock Tab Chrome Extension</h4>
                               </Link>
                             </div>
@@ -55,13 +55,13 @@ class Homepage extends React.Component {
                           <div className="grid-wrapper">
                             <div className="col-3">
                               <Link to="nivea-website">
-                                <span className="image fit"><img src={project_nivea_website} alt="" /></span>
+                                <span className="image fit"><img class="img__project" src={project_nivea_website} alt="" /></span>
                                 <h4>Nivea Thailand Homepage</h4>
                               </Link>
                             </div>
                             <div className="col-3">
                               <Link to="samsung-email-templates">
-                                <span className="image fit"><img src={project_samsung_email_template} alt="" /></span>
+                                <span className="image fit"><img class="img__project" src={project_samsung_email_template} alt="" /></span>
                                 <h4>Samsung Asia Email Templates (eDM)</h4>
                               </Link>
                             </div>
@@ -70,13 +70,13 @@ class Homepage extends React.Component {
                           <div className="grid-wrapper">
                             <div className="col-3">
                               <Link to="show-dc-website">
-                                <span className="image fit"><img src={project_showdc_website} alt="" /></span>
+                                <span className="image fit"><img class="img__project" src={project_showdc_website} alt="" /></span>
                                 <h4>SHOW DC Mall Thailand Website</h4>
                               </Link>
                             </div>
                             <div className="col-3">
                               <Link to="milo-website">
-                                <span className="image fit"><img src={project_milo_website} alt="" /></span>
+                                <span className="image fit"><img class="img__project" src={project_milo_website} alt="" /></span>
                                 <h4>Milo Beverage Thailand Website</h4>
                               </Link>
                             </div>
@@ -104,13 +104,13 @@ class Homepage extends React.Component {
                           <div className="grid-wrapper">
                             <div className="col-3">
                               <Link to="dc-vote-app">
-                                <span className="image fit"><img src={project_dcvote} alt="" /></span>
+                                <span className="image fit smaller"><img class="img__project" src={project_dcvote} alt="" /></span>
                                   <h4>DC Vote (7-Eleven)</h4>
                               </Link>
                             </div>
                             <div className="col-3">
                               <Link to="daily-notes-ios-app">
-                                <span className="image fit"><img src={project_daily_note} alt="" /></span>
+                                <span className="image fit smaller"><img class="img__project" src={project_daily_note} alt="" /></span>
                                 <h4>Daily Notes - Distraction-free</h4>
                               </Link>
                             </div>
@@ -134,12 +134,12 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-12">
                             <header className="major">
-                                <h2>Good to Know</h2>
+                                <h2>Did You Know?</h2>
                             </header>
                         </div>
 
                         <div className="col-3">
-                          <span className="image fit"><img src={headshot} alt="" /></span>
+                          <span className="image fit smaller"><img id="profile_picture" src={headshot} alt="" /></span>
                         </div>
 
                         <div className="col-3">
