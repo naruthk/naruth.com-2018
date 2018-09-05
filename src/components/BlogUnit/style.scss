@@ -1,0 +1,52 @@
+@import '../../assets/scss/main.scss';
+
+.blog-post-unit {
+  margin-bottom: 30px;
+  
+  .title {
+    padding: 8px 0px;
+    font-size: 3.0rem;
+
+    a {
+      color: $link-color;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .time-period {
+    font-size: 1.2rem;
+    line-height: 0.9rem;
+    padding-bottom: 20px;
+  }
+
+  .excerpt {
+    // color: $grey-color;
+    font-size: 1.8rem;
+    padding-bottom: 12px;
+  }
+
+  @include media('>=medium', '<large') {
+    .image {
+      height: 110px;
+    }
+  }
+
+  @include media('<=medium', '>xsmall') {
+    padding-bottom: 15px;
+    
+    .image {
+      height: 140px;
+    }
+  }
+
+  @include media('<=xsmall') {
+    padding-bottom: 15px;
+
+    .image {
+      height: 160px;
+    }
+  }
+}

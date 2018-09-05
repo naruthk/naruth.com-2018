@@ -1,0 +1,49 @@
+@import '../assets/scss/main.scss';
+
+pre, code {
+  font-size: 1.5rem;
+  border-radius: 15px;
+}
+
+code {
+  padding: 3px 10px 3px 10px !important;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.blog-post-container {
+  position: relative;
+}
+
+.blog-post {
+  h1.bold {
+    font-weight: 600;
+  }
+}
+
+.blog-post-content {
+  font-size: 1.9rem;
+  margin: 50px 0 100px 0;
+
+  h3, h4, h5 {
+    margin-top: 50px;
+  }
+}
+
+.floating-button {
+  // position: sticky;
+  top: 20px;
+  right: 20px;
+  // text-align: right;
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+  // border-bottom: 5px solid #ccc;
+  // background: rgba(252,252,252, 0.9);
+  width: fit-content;
+  // padding: 5px 10px 5px 10px;
+  // z-index: 2;
+}

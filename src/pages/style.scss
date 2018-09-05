@@ -1,0 +1,230 @@
+@import '../assets/scss/main.scss';
+
+$vertical-padding: 50px;
+$horizontal-padding: 64px;
+$main-width: 65%;
+$main-margin-right: 35%;
+$aside-width: 35%;
+
+.not-found {
+  // ul {
+  //   list-style: none;
+  //   margin: 0;
+  //   padding: 0;
+  //   margin: 40px 0;
+  // }
+  // li {
+  //   padding: 10px 20px 10px 20px;
+  //   border-radius: 15px;
+  //   background: #eee;
+  //   width: 300px;
+  //   margin: 20px;
+  //   transition: all 0.7s;
+  //   cursor: pointer;
+
+  //   a {
+  //     display: block;
+  //     &::before {
+  //       padding: 20px;
+  //     }
+  //   }
+
+  //   &:hover {
+  //     background: $link-color;
+  //     a {
+  //       color: #FFFFFF;
+  //     }
+  //   }
+  // }
+}
+
+.main {
+  margin: 0 auto;
+
+  h3 {
+    font-size: 3.4rem;
+    line-height: 1.6;
+
+    span.popup-skills {
+      text-decoration: underline;
+      color: #0D7EFF;
+      cursor: pointer;
+      position: relative;
+
+      &::after {
+        content: attr(data-info);
+        display: inline;
+        position: absolute;
+        top: 80px; left: 0;
+        opacity: 0;
+        width: 300px;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.6;
+        padding: 0.5em 0.8em;
+        // background: rgba(0,0,0,0.8);
+        background: rgba(12,126,255,0.9);
+        border-radius: 10px;
+        color: #fff;
+        pointer-events: none;
+        transition: opacity 250ms, top 250ms;
+      }
+      &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 22px; 
+        left: 20px;
+        opacity: 0;
+        width: 0; height: 0;
+        border: solid transparent 5px;
+        // border-bottom-color: rgba(0,0,0,0.8);
+        border-bottom-color: rgba(12,126,255,0.9);
+        transition: opacity 250ms, top 250ms;
+      }
+      &:hover {
+        z-index: 2;
+        &:hover::after,
+        &:hover::before {opacity: 1;}
+        &:hover::after {top: 50px;}
+        &:hover::before {top: 40px;}
+      }
+    }
+
+    @include media('<=xsmall') {
+      font-size: 2.8rem;
+      span.popup-skills {
+        text-decoration: none;
+        color: #000000;
+        cursor: default;
+        &::after, &::before {
+          content: attr(data-info);
+          display: none;
+        }
+      }
+    }
+
+    @include media('>=medium', '<large') {
+      font-size: 3rem;
+    }
+  }
+
+  // Setting the width and padding sizes
+  @include media('>=large') {
+    $main-width: 65%;
+    $main-margin-right: 35%;
+    $vertical-padding: 50px;
+    $horizontal-padding: 8%;
+
+    width: $main-width;
+    margin-right: $main-margin-right; 
+    padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
+  }
+  @include media('>=medium', '<large') {
+    $main-width: 70%;
+    $main-margin-right: 30%;
+    $vertical-padding: 50px;
+    $horizontal-padding: 8%;
+
+    width: $main-width;
+    margin-right: $main-margin-right; 
+    padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
+  }
+  @include media('>xsmall', '<medium') {
+    $main-width: 100%;
+    $main-margin-right: 0;
+    $vertical-padding: 50px;
+    $horizontal-padding: 48px;
+
+    width: $main-width;
+    margin-right: $main-margin-right; 
+    padding: $vertical-padding $horizontal-padding 0 $horizontal-padding;
+  }
+  @include media('<=xsmall') {
+    $main-width: 100%;
+    $main-margin-right: 0;
+    $vertical-padding: 50px;
+    $horizontal-padding: 24px;
+
+    width: $main-width;
+    margin-right: $main-margin-right; 
+    padding: $vertical-padding $horizontal-padding 0 $horizontal-padding;
+  }
+}
+
+.aside {
+  align-self: stretch;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+
+  // Positioning on the side for
+  // bigger screens
+  @include media('>=medium') {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    right: 0;
+    top: 0;
+    height: 100%;
+
+    .top {
+      flex-grow: 1;
+    }
+
+    .bottom {
+      width: 100%;
+    }
+  }
+
+  // Positioning at the bottom for
+  // smaller screens
+  @include media('<medium') {
+    position: relative;
+    text-align: center;
+    right: auto;
+    top: auto;
+    display: block;
+    padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
+
+    .bottom {
+      padding: $vertical-padding $horizontal-padding 0 $horizontal-padding;
+    }
+  }
+
+  // Setting the width and padding sizes
+  @include media('>=large') {
+    $aside-width: 35%;
+    $vertical-padding: 50px;
+    $horizontal-padding: 64px;
+
+    width: $aside-width;
+    padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
+  }
+  @include media('>=medium', '<large') {
+    $aside-width: 30%;
+    $vertical-padding: 50px;
+    $horizontal-padding: 48px;
+
+    width: $aside-width;
+    padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
+  }
+  @include media('>xsmall', '<medium') {
+    $aside-width: 100%;
+    $vertical-padding: 50px;
+    $horizontal-padding: 48px;
+
+    width: $aside-width;
+    padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
+  }
+  @include media('<=xsmall') {
+    $aside-width: 100%;
+    $vertical-padding: 50px;
+    $horizontal-padding: 24px;
+
+    width: $aside-width;
+    padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
+  }
+}
