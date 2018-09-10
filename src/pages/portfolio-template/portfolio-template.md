@@ -7,8 +7,6 @@ excerpt: "I developed this very simple one-page HTML-CSS-JS template for my own 
 
 ### About the Project
 
-### Features
-
 - One-page template
 - Interactive project section
 
