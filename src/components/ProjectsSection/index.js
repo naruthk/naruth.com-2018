@@ -8,12 +8,21 @@ import showdcWeb from '../../assets/images/projects/show-dc-web.png'
 import niveaWeb from '../../assets/images/projects/nivea-thailand-web.png'
 import digitalclockExtension from '../../assets/images/projects/digital-clock-extension.png'
 import portfoliotemplateWeb from '../../assets/images/projects/portfolio-template-web.png'
+import moviesFinderApp from '../../assets/images/projects/movies-finder-app.png'
 
 class ProjectsSection extends React.Component {
   render() {
     return (
       <Section title="Projects">
         <div className="row">
+        <ExperienceUnit
+            logo={moviesFinderApp}
+            colour="#FFFFFF"
+            title="Movies Finder App"
+            link="https://movies-finder-app.herokuapp.com/"
+            timeperiod="2018"
+            subtitle="Search and discover the latest movies and TV shows on the Internet."
+          />
           <ExperienceUnit
             logo={showdcWeb}
             colour="#FFFFFF"
