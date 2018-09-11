@@ -14,7 +14,7 @@ class About extends Component {
           A technology enthusiast &amp; huge fan of Apple products who also loves traveling, likes sushi, and watches Premier League soccer.
           <div className="nav">
             <h3 onClick={ () => push('/blog')}>Blog</h3>
-            <h3 onClick={ () => push('/uses')}>Uses</h3>
+            <h3 onClick={ () => push('/contact')}>Contact</h3>
           </div>
         </div>
       </div>

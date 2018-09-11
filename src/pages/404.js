@@ -3,10 +3,11 @@ import Link from "gatsby-link";
 import Helmet from "react-helmet";
 import About from '../components/Sidebar/About'
 import Links from '../components/Sidebar/Links'
+import Breadcrumb from '../components/Breadcrumb'
 
 import './style.scss'
 
-class NotFoundRoute extends React.Component {
+export default class NotFoundRoute extends React.Component {
   render() {
 
     const siteTitle = this.props.data.site.siteMetadata.title;
@@ -15,7 +16,8 @@ class NotFoundRoute extends React.Component {
       <div className="index">
         <Helmet title={`404 Page not found`} />
         <div className="main">
-          <h5><Link to="/" activeStyle={{color: '#0D7EFF', textDecoration: 'none'}}>Back Home</Link></h5>
+
+          <Breadcrumb linkTo="404" />
 
           <div className="not-found">
           
@@ -44,8 +46,6 @@ class NotFoundRoute extends React.Component {
     );
   }
 }
-
-export default NotFoundRoute;
 
 export const pageQuery = graphql`
   query NotFoundRoute {

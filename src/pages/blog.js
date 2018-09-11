@@ -2,7 +2,7 @@ import React from 'react'
 import About from '../components/Sidebar/About'
 import Links from '../components/Sidebar/Links'
 import Link from 'gatsby-link';
-import Section from '../components/Section';
+import Breadcrumb from '../components/Breadcrumb'
 import Helmet from 'react-helmet'
 import BlogPostSection from '../components/BlogSection';
 
@@ -17,7 +17,8 @@ class BlogPage extends React.Component {
       <div className="index">
         <Helmet title={`Blog - ${siteTitle}`} />
         <div className="main">
-          <h5><Link to="/" activeStyle={{color: '#0D7EFF', textDecoration: 'none'}}>Home</Link> > <span className="bold">Blog</span></h5>
+
+          <Breadcrumb linkTo="Blog" />
           
           <h3 className="bold">A collection of my thoughts put into writing. Mostly about latest technology, innovation, programming, and life experiences.</h3>
 
