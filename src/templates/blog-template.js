@@ -93,9 +93,6 @@ class BlogPostRoute extends React.Component {
               <div className="bio">
                 <p>Updated on {post.frontmatter.date}</p>
                 <p>{post.timeToRead} min read</p>
-                {/* <div className="nav">
-                  <h3 onClick={ () => push('/')}>Home</h3>
-                </div> */}
               </div>
             </div>
           </div>
