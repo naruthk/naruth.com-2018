@@ -3,6 +3,7 @@ path: "/uses"
 date: "2018-09-05T17:14:53"
 title: "Uses"
 excerpt: "Here are some of the software, hardware, tools, and links I frequently use."
+featuredImage: "../rawpixel-abstract.jpeg"
 ---
 
 ### Editor

@@ -5,6 +5,9 @@ import Link, { push } from 'gatsby-link';
 import Img from 'gatsby-image';
 import Disqus from 'disqus-react';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
+
 require("prismjs/themes/prism-tomorrow.css");
 
 import '../pages/style.scss';
@@ -27,8 +30,13 @@ class BlogPostRoute extends React.Component {
     return (
       <div className="index">
         <div className="main">
-          <div className="floating-button">
-            <a href="/blog">{`Go Back`}</a>
+          <div className="mini-header">
+            <div className="left">
+              <a href="/"><span>Naruth Kongurai</span></a>
+            </div>
+            <div className="right">
+              <a href="/blog">{`View other blog posts`}</a>
+            </div>
           </div>
           <div className="blog-post-container">
             <Helmet title={`${post.frontmatter.title}`} />
@@ -36,10 +44,16 @@ class BlogPostRoute extends React.Component {
               <h1 class="bold">{post.frontmatter.title}</h1>
               <h4>{post.frontmatter.excerpt}</h4>
             </div>
-            <div className="blog-hero-image">
-              {post.frontmatter.featuredImage && <Img sizes={post.frontmatter.featuredImage.childImageSharp.sizes} />}
-            </div>
-            {!post.frontmatter.featuredImage && <hr />}
+          </div>
+        </div>
+        
+        <div className="hero-image">
+          {post.frontmatter.featuredImage && <Img sizes={post.frontmatter.featuredImage.childImageSharp.sizes} />}
+          <p>Photo from <a href="https://www.pexels.com" target="_blank">Pexels</a></p>
+        </div>
+
+        <div className="main">
+          <div className="blog-post-container">
             <div className="blog-post">
               <div
                 className="blog-post-content"
@@ -52,6 +66,7 @@ class BlogPostRoute extends React.Component {
                   <div className="left">
                     <span>Previous</span>
                     <h3>{next.frontmatter.title}</h3>
+                    <FontAwesomeIcon icon={faArrowLeft} size="2x" />
                   </div>
                 </Link>
               }
@@ -60,11 +75,12 @@ class BlogPostRoute extends React.Component {
                   <div className="right">
                     <span>Next</span>
                     <h3>{prev.frontmatter.title}</h3>
+                    <FontAwesomeIcon icon={faArrowRight} size="2x" />
                   </div>
                 </Link>
               }
             </div>
-            <div>
+            <div className="comments">
               <Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
             </div>
           </div>

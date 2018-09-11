@@ -13,6 +13,35 @@ a {
   color: $link-color;
   text-decoration: none;
   font-weight: 600;
+  &:hover {
+    color: darkorange;
+  }
+  transition: all 0.5s;
+}
+
+.mini-header {
+  display: flex;
+  display: -ms-flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  margin-bottom: 50px; 
+
+  .left, .right {
+    flex-grow: 1;
+    flex-basis: auto;
+  }
+  .left {
+    a {
+      color: black;
+    }
+  }
+  .right {
+    text-align: right;
+  }
+  span {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
 }
 
 .blog-post-container {
@@ -34,11 +63,57 @@ a {
   }
 }
 
-.blog-hero-image {
-  width: 100%;
-  margin: 40px -50px;
+.hero-image {
+  // width: 100% !important;
+  // margin: 40px 0 !important;
   img {
-    max-width: 150%;
+    // max-width: 100%;
+    z-index: 0;
+  }
+  p {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  // Setting the width and padding sizes
+  @include media('>=large') {
+    $main-width: 65%;
+    $main-margin-right: 35%;
+    $vertical-padding: 30px;
+    $horizontal-padding: 0;
+
+    width: $main-width;
+    margin-right: $main-margin-right; 
+    padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
+  }
+  @include media('>=medium', '<large') {
+    $main-width: 70%;
+    $main-margin-right: 30%;
+    $vertical-padding: 50px;
+    $horizontal-padding: 0;
+
+    width: $main-width;
+    margin-right: $main-margin-right; 
+    padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
+  }
+  @include media('>xsmall', '<medium') {
+    $main-width: 100%;
+    $main-margin-right: 0;
+    $vertical-padding: 50px;
+    $horizontal-padding: 0;
+
+    width: $main-width;
+    margin-right: $main-margin-right; 
+    padding: $vertical-padding $horizontal-padding 0 $horizontal-padding;
+  }
+  @include media('<=xsmall') {
+    $main-width: 100%;
+    $main-margin-right: 0;
+    $vertical-padding: 50px;
+    $horizontal-padding: 0;
+
+    width: $main-width;
+    margin-right: $main-margin-right; 
+    padding: $vertical-padding $horizontal-padding 0 $horizontal-padding;
   }
 }
 
@@ -55,17 +130,21 @@ a {
     text-align: center;
     flex-grow: 1;
     flex-basis: auto;
-    padding: 10px 25px;
-    margin: 0 20px;
-    transition: all 0.8s;
+    padding: 10px 10px;
     span {
       text-transform: uppercase;
       font-weight: 600;
       display: block;
     }
-    &:hover {
-      transform: translateY(-5px);
-      box-shadow: 0px 5px 18px 0px rgba(0, 0, 0, 0.3);
+    @include media('>xsmall', '<medium') {
+      h3 {
+        font-size: 1.7em;
+      }
+    }
+    @include media('<=xsmall') {
+      h3 {
+        font-size: 1.5em;
+      }
     }
   }
   a span {
@@ -74,15 +153,8 @@ a {
       color: black;
     }
   }
-  a:hover {
-    color: darkorange;
-  }
 }
 
-.floating-button {
-  top: 20px;
-  right: 20px;
-  font-size: 1.7rem;
-  margin-bottom: 20px;
-  width: fit-content;
+.comments {
+  margin-bottom: 50px;
 }
