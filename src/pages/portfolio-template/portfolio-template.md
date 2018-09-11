@@ -3,6 +3,7 @@ title: "Portfolio HTML5 Template"
 date: "2018-07-29T07:10:03.284Z"
 path: "/portfolio-template"
 excerpt: "I developed this very simple one-page HTML-CSS-JS template for my own website and personal use prior to switching to Gatsby as my CMS. This HTML5 template is ideal for individuals that are looking to showcase themselves and their projects on the Internet."
+featuredImage: "./overall.png"
 ---
 
 ### About the Project

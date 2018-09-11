@@ -3,6 +3,7 @@ title: "Movies Finder App: IMDB Clone"
 date: "2018-09-10T16:28:28.284Z"
 path: "/movies-finder-app"
 excerpt: "Since so many movies are being released in theaters this summer, I thought it would be very interesting to create a clone of the popular IMDB website."
+featuredImage: "./screenshot1.png"
 ---
 
 Here’s the link to the live version: [Demo](https://movies-finder-app.herokuapp.com)

@@ -45,6 +45,8 @@ module.exports = {
         head: true
       }
     },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
   ],
   siteMetadata: {
     title: 'Naruth Kongurai',

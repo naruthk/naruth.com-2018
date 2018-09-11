@@ -3,9 +3,8 @@ title: "iOS App: Daily Notes"
 date: "2018-08-22T22:12:03.284Z"
 path: "/daily-notes-ios-app"
 excerpt: "A lightweight mobile application that offers a distraction-free writing interface for note taking. The app displays text in plain text formatting."
+featuredImage: "./app.png"
 ---
-
-![App Interface](app.png)
 
 Today I want to share with you my first ever iOS application called **Daily Notes - Distraction-free**.
 
