@@ -15,7 +15,7 @@ class BlogSection extends React.Component {
             .map(({ node: post }) => {
               return (
                 <div key={post.id}>
-                  <BlogUnit 
+                  <BlogUnit
                     title={post.frontmatter.title} 
                     link={post.frontmatter.path}
                     timeperiod={post.frontmatter.date}

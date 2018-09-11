@@ -2691,6 +2691,13 @@ diffie-hellman@^5.0.0:
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
 
+disqus-react@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/disqus-react/-/disqus-react-1.0.5.tgz#828ea186bd241c5e2a6dfebab5135e52a2d91d11"
+  dependencies:
+    react "^15.6.1"
+    react-dom "^15.6.1"
+
 dom-converter@~0.1:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/dom-converter/-/dom-converter-0.1.4.tgz#a45ef5727b890c9bffe6d7c876e7b19cb0e17f3b"
@@ -6809,10 +6816,6 @@ pako@~1.0.5:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.6.tgz#0101211baa70c4bca4a0f63f2206e97b7dfaf258"
 
-paper@^0.11.5:
-  version "0.11.5"
-  resolved "https://registry.yarnpkg.com/paper/-/paper-0.11.5.tgz#d662de67bce8218c287bfe17586d099d2cc48040"
-
 parse-asn1@^5.0.0:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/parse-asn1/-/parse-asn1-5.1.1.tgz#f6bf293818332bd0dab54efb16087724745e6ca8"
@@ -7889,7 +7892,7 @@ react-dev-utils@^4.2.1:
     strip-ansi "3.0.1"
     text-table "0.2.0"
 
-react-dom@^15.6.0:
+react-dom@^15.6.0, react-dom@^15.6.1:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.6.2.tgz#41cfadf693b757faf2708443a1d1fd5a02bef730"
   dependencies:
@@ -7961,7 +7964,7 @@ react-side-effect@^1.1.0:
     exenv "^1.2.1"
     shallowequal "^1.0.1"
 
-react@^15.6.0:
+react@^15.6.0, react@^15.6.1:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/react/-/react-15.6.2.tgz#dba0434ab439cfe82f108f0f511663908179aa72"
   dependencies:

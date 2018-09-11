@@ -2,6 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import Links from "../components/Sidebar/Links";
 import Link, { push } from 'gatsby-link';
+import Disqus from 'disqus-react';
 
 require("prismjs/themes/prism-tomorrow.css");
 
@@ -14,6 +15,12 @@ class BlogPostRoute extends React.Component {
   render() {
 
     const post = this.props.data.markdownRemark
+
+    const disqusShortname = 'naruthk';
+    const disqusConfig = {
+      identifier: post.id,
+      title: post.frontmatter.title,
+    };
 
     return (
       <div className="index">
@@ -31,6 +38,12 @@ class BlogPostRoute extends React.Component {
                 className="blog-post-content"
                 dangerouslySetInnerHTML={{ __html: post.html }}
               />
+            </div>
+            <div>
+              {/* <hr /> */}
+              <h4 className="bold">Comments:</h4>
+              <p>If you like this article, leave a comment below. I read all comments and will happily reply.</p>
+              <Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
             </div>
           </div>
         </div>
@@ -69,6 +82,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html,
       timeToRead,
+      id,
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         path
