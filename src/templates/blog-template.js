@@ -41,7 +41,7 @@ class BlogPostRoute extends React.Component {
               <a href="/"><span>Naruth Kongurai</span></a>
             </div>
             <div className="right">
-              <a href="/blog">{`View other blog posts`}</a>
+              <a href="/blog">{`Read other posts`}</a>
             </div>
           </div>
           <div className="blog-post-container">
