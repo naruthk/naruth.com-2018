@@ -29,6 +29,12 @@ class BlogPostRoute extends React.Component {
 
     return (
       <div className="index">
+        <Helmet>
+          <title>{post.frontmatter.title}</title>
+          <meta property="og:title" content={post.frontmatter.title} />
+          <meta property="og:description" content={post.frontmatter.excerpt} />
+          <meta name="description" content={post.frontmatter.excerpt} />
+        </Helmet>
         <div className="main">
           <div className="mini-header">
             <div className="left">
@@ -39,7 +45,6 @@ class BlogPostRoute extends React.Component {
             </div>
           </div>
           <div className="blog-post-container">
-            <Helmet title={`${post.frontmatter.title}`} />
             <div className="blog-post">
               <h1 class="bold">{post.frontmatter.title}</h1>
               <h4>{post.frontmatter.excerpt}</h4>

@@ -2,7 +2,7 @@
 title: "Interview Questions"
 date: "2018-09-08T18:02:26.284Z"
 path: "/interview-questions"
-excerpt: "Fresh out of university. I've been applying for jobs at many companies. Here are the list of interview questions I've kept for record."
+excerpt: "I've been applying for jobs at many companies ever since I graduated in June 2018. I am maintaing a list of interview questions (not all) I've been asked in the past."
 featuredImage: "./paper.jpeg"
 ---
 
