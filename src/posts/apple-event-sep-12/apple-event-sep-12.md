@@ -2,7 +2,7 @@
 path: "/apple-event-sep-12"
 date: "2018-09-12T13:57:58"
 title: "What I Thought Was Interesting From Apple Event September 2018"
-excerpt: "Today, Apple announced all sorts of new products: the iPhone XS, iPhone XS Max, the iPhone XR and also the Apple Watch Series 4. This blog post will focus on what I excited me about the most."
+excerpt: "Today, Apple announced all sorts of new products: the iPhone XS, iPhone XS Max, the iPhone XR and also the Apple Watch Series 4. This post will focus on things that excited me the most about from today's event."
 featuredImage: "./iphonexs.png"
 ---
 
