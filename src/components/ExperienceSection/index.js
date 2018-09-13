@@ -18,7 +18,7 @@ class ExperienceSection extends React.Component {
             colour='#FFFFFF'
             title='Dapper Grooming Hub'
             link='https://www.dapperseattle.com/'
-            timeperiod='Aug 2018 - Present'
+            timeperiod={<span>Aug 2018 - <span className="present">Present</span></span>}
             subtitle='Lead 3 development teams (iOS, Android, Web) to design and develop web and mobile apps for an early stage startup.'
           />
           <ExperienceUnit

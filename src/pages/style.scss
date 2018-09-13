@@ -16,7 +16,7 @@ $aside-width: 35%;
     span.popup-skills {
       text-decoration: underline;
       color: #0D7EFF;
-      cursor: pointer;
+      cursor: default;
       position: relative;
 
       &::after {

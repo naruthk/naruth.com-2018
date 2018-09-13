@@ -36,6 +36,13 @@
     padding-bottom: 12px;
   }
 
+  span.present {
+    display: inline;
+    background-color: lightcyan;
+    border: 0.3px solid ghostwhite;
+    padding: 0.2em 0.5em;
+  }
+
   @include media('>=medium', '<large') {
     .image {
       height: 110px;

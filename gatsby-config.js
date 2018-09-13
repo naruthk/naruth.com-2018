@@ -50,8 +50,8 @@ module.exports = {
   ],
   siteMetadata: {
     title: 'Naruth Kongurai',
-    description: 'Frontend Developer',
-    keywords: 'frontend, backend, engineer, portfolio, personal website, developer',
-    url: 'http://www.naruthk.com'
+    description: 'Frontend developer with experience in designing and building web and mobile apps.',
+    keywords: 'naruth, kongurai, frontend, backend, engineer, portfolio, personal website, developer',
+    url: 'https://www.naruthk.com'
   }
 };
