@@ -3,7 +3,8 @@ title: "Working as a Teaching Assistant: An Honest Reflection"
 date: "2018-09-12T12:12:04.284Z"
 path: "/teaching-assistant-reflection"
 excerpt: "This is a reflection of my time as a Teaching Assistant from March 2018 to June 2018 when I taught Android Development under Ted Neward, an iSchool lecturer."
-featuredImage: "../rawpixel-abstract.jpeg"
+featuredImage: "../generic.jpeg"
+imageCredit: 'Pexels'
 ---
 
 I applied for the position of a Teaching Assistant to teach mobile development two quarters ago, which was around December 2017 if I am right. My expected graduation date was June 2018, so I was hoping that at the very least I could find an academic job to do in my last quarter at the University of Washington. I felt it was an important time in my academic journey to somehow give something back to the university and that was in the form of teaching.
@@ -12,7 +13,7 @@ Sometimes around February of 2018, I received an offer letter from the Informati
 
 Today I reflect back on my experience as an Informatics (iSchool) Teaching Assistant.
 
-### Gaining access to resources in the department
+## Gaining access to resources in the department
 
 I got plenty of access to resources that were offered to professors, lecturers, staffs, and other teaching assistants. From what I could recall, I was allowed unlimited access to technologies areas and equipment in the iSchool department. Yes, that meant all the cool Macs machines they had, printing materials, and restricted areas in the Mary Gates Hall for iSchool staff.
 
@@ -20,7 +21,7 @@ Another benefit from the department was that I got access to hosting my website 
 
 I also got to manage the course content on Canvas website. I was always curious about how the course page on Canvas would look like when you logged in as a TA or the professor. Now that I was one, I was able to modify the course homepage, create new assignments and quizzes, and post new announcements straight from the Instructor View on Canvas. But not all TAs would be a big nerdy like I am about this, but it was something cool for me.
 
-### Improving public speaking skills
+## Improving public speaking skills
 
 To be honest, I was very nervous on my first day leading a lab section. I mean, really, who wouldn’t be? Like any other student, I would come to class, sit in, listen to my professor or TA speak, and be done. It was almost a simple routine. In some classes, I don’t even have to speak out a word during lecture or section, and the quarter would soon be over anyway.
 
@@ -40,7 +41,7 @@ But how does designing each section differently had anything to do with public s
 
 That all comes down to public speaking and the ability to do so! 
 
-### Becoming a mentor
+## Becoming a mentor
 
 I never really understood how powerful mentorship could be until I became a mentor. As a teaching assistant, I had helped so many students to overcome struggles. Maybe it was a question from the assignment that a student could not understand. In other times, a struggle was how to cope with so many assignments and quizzes in the course. One student in the class also asked me for advice on how to become a better developer.
 
@@ -56,7 +57,7 @@ While I was mentoring him, he would ask me lots of questions — many of which I
 
 I was proud to see him succeed both in class and in life. And I felt very happy being able to mentor others and to see them succeed too.
 
-### Networking
+## Networking
 
 I made lots of friends as a teaching assistant. I kept in touch with lots of my students and also my professor who I worked under. The professor also introduced me to many new individuals in the Informatics department (many were professors) and also from setting a conversation up via email with developers from many companies.
 
@@ -66,7 +67,7 @@ I wasn’t as lucky as other friends of mine who were working as a teaching assi
 
 That is why I think networking is so useful and important in all aspect of our lives. Whether seeking a job or finding someone who is an expert at something, it is always easy to reach out to someone you know in your network.
 
-### Leadership skill
+## Leadership skill
 
 Aside from public speaking skill, I also improved my leadership skill. Each week of lab I had to lead a class of 30 students. It never occurred to me that things would be so different now that I was standing in front of the podium.
 

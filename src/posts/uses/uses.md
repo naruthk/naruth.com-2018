@@ -3,10 +3,11 @@ path: "/uses"
 date: "2018-09-05T17:14:53"
 title: "Uses"
 excerpt: "Here are some of the software, hardware, tools, and links I frequently use."
-featuredImage: "../rawpixel-abstract.jpeg"
+featuredImage: "../generic.jpeg"
+imageCredit: 'Pexels'
 ---
 
-### Editor
+## Editor
 
 - Visual Studio Code:
   - **Theme:**
@@ -24,12 +25,12 @@ featuredImage: "../rawpixel-abstract.jpeg"
       - Prettier
       - VS Live Share
 
-### Browsers
+## Browsers
 
 - Google Chrome [Beta](https://www.google.com/chrome/beta/) for daily activities & [Canary](https://www.google.com/chrome/canary/) for development purposes
 - [Firefox Developer Edition](https://developer.mozilla.org/en-US/Firefox/Developer_Edition) because it offers advanced debugging and inspection tools
 
-### Development Tools
+## Development Tools
 
 - [Hyper](https://hyper.is/) for my terminal
 - [Postman](https://www.getpostman.com/apps) for working with APIs
@@ -37,7 +38,7 @@ featuredImage: "../rawpixel-abstract.jpeg"
 - My website is build and deployed on [Netlify](https://www.netlify.com/) which acts as a cloud hosting server.
 - My website and many other projects of mine are created using [Gatsby](https://www.gatsbyjs.org/) and [React](https://reactjs.org).
 
-### Productivity Tools
+## Productivity Tools
 
 - [Alfred 3](https://www.alfredapp.com/) as a replacement for Spotlight in OSX
 - [1Password 7](https://1password.com/downloads/), which is the best password manager ever. And I have it installed on my Mac and iPhone too
@@ -52,13 +53,13 @@ featuredImage: "../rawpixel-abstract.jpeg"
 - [Amphetamine](https://itunes.apple.com/us/app/amphetamine/id937984704) to prevent my laptop from sleeping
 - [Bartender 3](https://www.macbartender.com/) for organizing menu bar icons
 
-### Cloud Storage
+## Cloud Storage
 
 - Backblaze
 - Dropbox & [Dropbox Paper](https://www.dropbox.com/paper)
 - Google Drive
 
-### Graphics Design
+## Graphics Design
 
 - Sketch
 - Figma
@@ -69,11 +70,11 @@ featuredImage: "../rawpixel-abstract.jpeg"
 - Netflix
 - Spotify
 
-### Hardware
+## Hardware
 
 - I work on a Macbook Pro 13-inch Early 2015 coupled with my Apple Magic Mouse and the all-new Apple's Airpod.
 
-### Frequently Visited Links
+## Frequently Visited Links
 
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web)
 - [Google News](https://news.google.com/)

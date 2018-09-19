@@ -4,13 +4,14 @@ date: "2018-09-12T13:57:58"
 title: "What I Thought Was Interesting From Apple Event September 2018"
 excerpt: "Today, Apple announced all sorts of new products: the iPhone XS, iPhone XS Max, the iPhone XR and also the Apple Watch Series 4. This post will focus on things that excited me the most about from today's event."
 featuredImage: "./iphonexs.png"
+imageCredit: 'Apple'
 ---
 
 Today, Apple announced all sorts of new products: the iPhone XS, iPhone XS Max, the iPhone XR and also the Apple Watch Series 4. These new technologies put Apple back in the spotlight as being a forward-thinking company capable of producing top products for the world to witness and their consumers to use.
 
 Here is a quick run down of what I thought was very interesting from today’s event.
 
-### Apple Watch Series 4
+## Apple Watch Series 4
 
 ![Image from Apple's Watch page](/watch-series-4.png)
 
@@ -26,7 +27,7 @@ Another cool feature is the watch’s ability to conduct an electrocardiogram. A
 
 The watch comes in three types of aluminum finishes: silver, gold, and space gray. The price starts at $399 for the non-cellular model. The $499 model comes with cellular technology.
 
-### iPhone XS and iPhone XS Max
+## iPhone XS and iPhone XS Max
 
 The iPhone XS and XS Max both contains the Super Retina Display with OLED display technology. The iPhone XS has a 5.8-inch screen while the bigger model, the iPhone XS Max, has a 6.5-inch screen.
 
@@ -45,7 +46,7 @@ Dual-sim lovers will love the iPhone XS and the iPhone XS Max. These phones will
 Both models offer a 64-GB version, 256-GB version, and a 512-GB version.
 The 64-GB version starts at $999, while the 256-GB jumps up to $1149.
 
-### iPhone XR
+## iPhone XR
 
 This is an interesting one to think about in my opinion. It sits somewhere between the iPhone X and the iPhone 8 Plus in terms of screen size, capabilities, and price.
 

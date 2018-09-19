@@ -1,0 +1,33 @@
+ul.navigation-list {
+  margin: 0;
+  li {
+    list-style-type: none;
+    padding: 0 20px;
+    
+    &:first-of-type {
+      margin-left: 0;
+    }
+    
+    &:last-of-type {
+      margin-right: 0;
+      border: none;
+    }
+
+    @include media('>=large') {
+      display: inline;
+      border-right: 1px solid #ccc;
+    }
+    @include media('>=medium', '<large') {
+      display: inline;
+      border-right: 1px solid #ccc;
+    }
+    @include media('>xsmall', '<medium') {
+      display: inline;
+      border-right: 1px solid #ccc;
+    }
+  }
+  @include media('<=xsmall') {
+    display: block;
+    width: 100%;
+  }
+}

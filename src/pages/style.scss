@@ -8,91 +8,11 @@ $aside-width: 35%;
 
 .main {
   margin: 0 auto;
-
-  i.fa {
-    font-size: 2.2rem;
-    margin-right: 10px;
-  }
-
-  h4.subtitle {
-    color: darkslategrey;
-  }
-  
-  h3 {
-    font-size: 3.4rem;
-    line-height: 1.6;
-
-    span.popup-skills {
-      text-decoration: underline;
-      color: #0D7EFF;
-      cursor: default;
-      position: relative;
-
-      &::after {
-        content: attr(data-info);
-        display: inline;
-        position: absolute;
-        top: 80px; left: 0;
-        opacity: 0;
-        width: 300px;
-        font-size: 24px;
-        font-weight: 700;
-        line-height: 1.6;
-        padding: 0.5em 0.8em;
-        // background: rgba(0,0,0,0.8);
-        background: rgba(12,126,255,0.9);
-        border-radius: 10px;
-        color: #fff;
-        pointer-events: none;
-        transition: opacity 250ms, top 250ms;
-      }
-      &::before {
-        content: '';
-        display: block;
-        position: absolute;
-        top: 22px; 
-        left: 20px;
-        opacity: 0;
-        width: 0; height: 0;
-        border: solid transparent 5px;
-        // border-bottom-color: rgba(0,0,0,0.8);
-        border-bottom-color: rgba(12,126,255,0.9);
-        transition: opacity 250ms, top 250ms;
-      }
-      &:hover {
-        z-index: 2;
-        &:hover::after,
-        &:hover::before {opacity: 1;}
-        &:hover::after {top: 50px;}
-        &:hover::before {top: 40px;}
-      }
-    }
-
-    @include media('<=xsmall') {
-      font-size: 2.8rem;
-      span.popup-skills {
-        text-decoration: none;
-        color: #000000;
-        cursor: default;
-        &::after, &::before {
-          content: attr(data-info);
-          display: none;
-        }
-      }
-    }
-
-    @include media('>=medium', '<large') {
-      font-size: 3rem;
-    }
-  }
-
-  // Setting the width and padding sizes
   @include media('>=large') {
     $main-width: 65%;
     $main-margin-right: 35%;
     $vertical-padding: 50px;
     $horizontal-padding: 8%;
-
     width: $main-width;
     margin-right: $main-margin-right; 
     padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
@@ -102,7 +22,6 @@ $aside-width: 35%;
     $main-margin-right: 30%;
     $vertical-padding: 50px;
     $horizontal-padding: 8%;
-
     width: $main-width;
     margin-right: $main-margin-right; 
     padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
@@ -112,7 +31,6 @@ $aside-width: 35%;
     $main-margin-right: 0;
     $vertical-padding: 50px;
     $horizontal-padding: 48px;
-
     width: $main-width;
     margin-right: $main-margin-right; 
     padding: $vertical-padding $horizontal-padding 0 $horizontal-padding;
@@ -122,192 +40,66 @@ $aside-width: 35%;
     $main-margin-right: 0;
     $vertical-padding: 50px;
     $horizontal-padding: 24px;
-
     width: $main-width;
     margin-right: $main-margin-right; 
     padding: $vertical-padding $horizontal-padding 0 $horizontal-padding;
   }
 }
 
-.aside {
-  align-self: stretch;
-  margin: 0 auto;
-  background-color: black;
-  color: white;
-
-  // Positioning on the side for
-  // bigger screens
-  @include media('>=medium') {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    right: 0;
-    top: 0;
-    height: 100%;
-
-    .top {
-      flex-grow: 1;
-    }
-
-    .bottom {
-      width: 100%;
-    }
-  }
-
-  // Positioning at the bottom for
-  // smaller screens
-  @include media('<medium') {
-    position: relative;
-    text-align: center;
-    right: auto;
-    top: auto;
-    display: block;
-    padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
-
-    .bottom {
-      padding: $vertical-padding $horizontal-padding 0 $horizontal-padding;
-    }
-  }
-
-  // Setting the width and padding sizes
-  @include media('>=large') {
-    $aside-width: 35%;
-    $vertical-padding: 50px;
-    $horizontal-padding: 64px;
-
-    width: $aside-width;
-    padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
-  }
-  @include media('>=medium', '<large') {
-    $aside-width: 30%;
-    $vertical-padding: 50px;
-    $horizontal-padding: 48px;
-
-    width: $aside-width;
-    padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
-  }
-  @include media('>xsmall', '<medium') {
-    $aside-width: 100%;
-    $vertical-padding: 50px;
-    $horizontal-padding: 48px;
-
-    width: $aside-width;
-    padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
-  }
-  @include media('<=xsmall') {
-    $aside-width: 100%;
-    $vertical-padding: 50px;
-    $horizontal-padding: 24px;
-
-    width: $aside-width;
-    padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
-  }
+i.fa {
+  font-size: 2.2rem;
+  margin-right: 10px;
 }
 
+span.pop-up {
+  text-decoration: underline;
+  color: #0D7EFF;
+  cursor: default;
+  position: relative;
 
-section#contact {
-  margin: 50px 0;
-
-  label {
-    display: block;
-    text-transform: uppercase;
-    font-size: 0.8em;
-    letter-spacing: 2px;
-    margin: 0 0 10px 0;
-  }
-
-  input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	input[type="tel"],
-	input[type="search"],
-	input[type="url"],
-	select,
-	textarea {
-		border: 1px solid #d3f4ff;
-		border-radius: 0;
-		color: inherit;
-		display: block;
-		outline: 0;
-    padding: 0 1em;
-    margin: 1em 0;
-		text-decoration: none;
-    width: 100%;
-    max-width: 100%;
-    font-size: 2rem;
-    font-weight: 300;
-
-		&:invalid {
-			box-shadow: none;
-    }
-
-		&:focus {
-      background-color: #f7f7f7;
-      border-color: #f7f7f7;
-		}
-  }
-
-  *:focus, *:active {
-    outline: none !important;
-  }
-  
-  input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	input[type="tel"],
-	input[type="search"],
-	input[type="url"],
-	select {
-		height: 60px;
-	}
-
-	textarea {
-		padding: 0.75em 1em;
-  }
-
-  input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-	button,
-	.button {
-		border: 0;
-		border-radius: 0;
-		cursor: pointer;
-		display: inline-block;
-		font-size: 0.8em;
-		font-weight: 600;
-		height: 3.5em;
-		letter-spacing: 2px;
-		line-height: 3.5em;
-		padding: 0 1.75em;
-		text-align: center;
-		text-decoration: none;
-		text-transform: uppercase;
-		white-space: nowrap;
-  }
-
-  input[type="submit"] {
-    border: 2px solid $link-color;
-    background-color: $link-color;
+  &::after {
+    content: attr(data-info);
+    display: inline;
+    position: absolute;
+    top: 80px; left: 0;
+    opacity: 0;
+    width: 300px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.6;
+    padding: 0.5em 0.8em;
+    background: rgba(12,126,255,0.9);
+    border-radius: 10px;
     color: #fff;
-    &:hover {
-      background-color: darkorange;
-      border: 2px solid darkorange;
-    }
+    pointer-events: none;
+    transition: opacity 250ms, top 250ms;
   }
-
-  input[type="reset"] {
-    border: 2px solid $link-color;
-    color: $link-color;
-    &:hover {
-      border-color: darkorange;
-      color: darkorange;
-    }
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 22px; 
+    left: 20px;
+    opacity: 0;
+    width: 0; height: 0;
+    border: solid transparent 5px;
+    border-bottom-color: rgba(12,126,255,0.9);
+    transition: opacity 250ms, top 250ms;
   }
-  
-  input[type="submit"].special {
-    margin-right: 20px;
+  &:hover {
+    z-index: 2;
+    &:hover::after,
+    &:hover::before {opacity: 1;}
+    &:hover::after {top: 50px;}
+    &:hover::before {top: 40px;}
+  }
+  @include media('<=xsmall') {
+    text-decoration: none;
+    color: #000000;
+    cursor: default;
+    &::after, &::before {
+      content: attr(data-info);
+      display: none;
+    }
   }
 }

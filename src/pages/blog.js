@@ -1,10 +1,12 @@
 import React from 'react'
 import About from '../components/Sidebar/About'
 import Links from '../components/Sidebar/Links'
-import Link from 'gatsby-link';
-import Breadcrumb from '../components/Breadcrumb'
+import Header from '../components/Header'
 import Helmet from 'react-helmet'
 import BlogPostSection from '../components/BlogSection';
+
+
+import fullScreenImage from '../assets/images/full-width-photo.jpeg'
 
 import './style.scss'
 
@@ -16,14 +18,11 @@ class BlogPage extends React.Component {
     return (
       <div className="index">
         <Helmet title={`Blog - ${siteTitle}`} />
+
         <div className="main">
-
-          <Breadcrumb linkTo="Blog" />
-
-          {/* <h3 className="bold">A collection of my thoughts put into writing. Mostly about latest technology, innovation, programming, and life experiences.</h3> */}
-
+          <Header />
+          <h3 className="bold">Blog</h3>
           <BlogPostSection postsData={this.props.data.allMarkdownRemark} />
-
         </div>
 
         <div className="aside">

@@ -4,6 +4,7 @@ date: "2018-08-22T22:12:03.284Z"
 path: "/daily-notes-ios-app"
 excerpt: "A lightweight mobile application that offers a distraction-free writing interface for note taking. The app displays text in plain text formatting."
 featuredImage: "./app.png"
+imageCredit: ''
 ---
 
 Today I want to share with you my first ever iOS application called **Daily Notes - Distraction-free**.
@@ -13,13 +14,13 @@ I also want to give credit to Gregor Cresnar's [modern icons](https://www.flatic
 The application was built on Xcode with Swift 3.
 
 
-### Download
+## Download
 
 Download the app now by visiting the [App Store](https://itunes.apple.com/us/app/daily-notes-distraction-free/id1299564920)!
 
 You will need iOS 11+ in order to install this application. As of now, the app can run on an iPhone and an iPad.
 
-### Reviews
+## Reviews
 
 **Hula.jenna:** 
 

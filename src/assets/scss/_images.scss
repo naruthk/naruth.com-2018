@@ -1,0 +1,46 @@
+.hero-full-screen {
+  position: relative;
+  img {
+    z-index: 0;
+  }
+  p {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  @include media('>=large') {
+    $main-width: 65%;
+    $main-margin-right: 35%;
+    $vertical-padding: 30px;
+    $horizontal-padding: 0;
+    width: $main-width;
+    margin-right: $main-margin-right; 
+    padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
+  }
+  @include media('>=medium', '<large') {
+    $main-width: 70%;
+    $main-margin-right: 30%;
+    $vertical-padding: 50px;
+    $horizontal-padding: 0;
+    width: $main-width;
+    margin-right: $main-margin-right; 
+    padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
+  }
+  @include media('>xsmall', '<medium') {
+    $main-width: 100%;
+    $main-margin-right: 0;
+    $vertical-padding: 50px;
+    $horizontal-padding: 0;
+    width: $main-width;
+    margin-right: $main-margin-right; 
+    padding: $vertical-padding $horizontal-padding 0 $horizontal-padding;
+  }
+  @include media('<=xsmall') {
+    $main-width: 100%;
+    $main-margin-right: 0;
+    $vertical-padding: 50px;
+    $horizontal-padding: 0;
+    width: $main-width;
+    margin-right: $main-margin-right; 
+    padding: $vertical-padding $horizontal-padding 0 $horizontal-padding;
+  }
+}

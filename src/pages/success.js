@@ -2,11 +2,11 @@ import React from "react";
 import Helmet from "react-helmet";
 import About from '../components/Sidebar/About'
 import Links from '../components/Sidebar/Links'
-import Breadcrumb from '../components/Breadcrumb'
+import Header from '../components/Header'
 
 import './style.scss'
 
-import genericPhoto from '../posts/rawpixel-abstract.jpeg'
+import fullScreenImage from '../assets/images/full-width-photo.jpeg'
 
 export default class ContactSuccess extends React.Component {
   render() {
@@ -16,21 +16,15 @@ export default class ContactSuccess extends React.Component {
     return (
       <div className="index">
         <Helmet title={`Contact - ${siteTitle}`} />
+
         <div className="main">
-          <Breadcrumb linkTo="Submission Successful" />
+          <Header />
+          <h3 className="bold">I've got your response!</h3>
+          <h4>Thank you so much. I will get back to you as soon as possible.</h4>
+        </div>
 
-          <section>
-          
-            <h3 className="bold">I've got your response!</h3>
-
-            <img src={genericPhoto} style={{maxWidth: '100%'}} />
-
-            <p>Thank you so much. I will get back to you as soon as possible.</p>
-
-            <p>Have a great rest of your day!</p>
-            
-          </section>
-
+        <div className="hero-full-screen">
+          <img src={fullScreenImage} />
         </div>
 
         <div className="aside">

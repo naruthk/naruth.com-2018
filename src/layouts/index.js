@@ -1,9 +1,7 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import get from 'lodash/get'
-
-// require("prismjs/themes/prism-tomorrow.css");
+import Navigation from '../components/Navigation'
 
 import './style.scss'
 
@@ -38,7 +36,10 @@ class TemplateWrapper extends React.Component {
           ]}
         />
         <div className="template-wrapper-children">
-          { children() }
+          <Navigation />
+          <main id="page-wrap">
+            { children() }
+          </main>
         </div>
       </div>
     )

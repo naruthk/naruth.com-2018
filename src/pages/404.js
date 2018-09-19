@@ -3,7 +3,7 @@ import Link from "gatsby-link";
 import Helmet from "react-helmet";
 import About from '../components/Sidebar/About'
 import Links from '../components/Sidebar/Links'
-import Breadcrumb from '../components/Breadcrumb'
+import Header from '../components/Header'
 
 import './style.scss'
 
@@ -17,7 +17,7 @@ export default class NotFoundRoute extends React.Component {
         <Helmet title={`404 Page not found`} />
         <div className="main">
 
-          <Breadcrumb linkTo="404" />
+          <Header />
 
           <div className="not-found">
           

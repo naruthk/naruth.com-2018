@@ -1,9 +1,11 @@
 import React from "react";
 import Helmet from "react-helmet";
 import Links from "../components/Sidebar/Links";
-import Link, { push } from 'gatsby-link';
+import Link from 'gatsby-link';
 import Img from 'gatsby-image';
 import Disqus from 'disqus-react';
+
+import Header from '../components/Header'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
@@ -27,44 +29,38 @@ class BlogPostRoute extends React.Component {
       title: post.frontmatter.title,
     };
 
+    const { title, excerpt, featuredImage, imageCredit, date } = post.frontmatter;
+
     return (
       <div className="index">
         <Helmet>
-          <title>{post.frontmatter.title}</title>
-          <meta property="og:title" content={post.frontmatter.title} />
-          <meta property="og:description" content={post.frontmatter.excerpt} />
-          <meta name="description" content={post.frontmatter.excerpt} />
+          <title>{title}</title>
+          <meta property="og:title" content={title} />
+          <meta property="og:description" content={excerpt} />
+          <meta name="description" content={excerpt} />
         </Helmet>
+
         <div className="main">
-          <div className="mini-header">
-            <div className="left">
-              <a href="/"><span>Naruth Kongurai</span></a>
-            </div>
-            <div className="right">
-              <a href="/blog">{`Read other posts`}</a>
-            </div>
-          </div>
+          <Header />
           <div className="blog-post-container">
             <div className="blog-post">
-              <h1 class="bold">{post.frontmatter.title}</h1>
-              <h4>{post.frontmatter.excerpt}</h4>
+              <h1 class="bold">{title}</h1>
+              <h4>{excerpt}</h4>
             </div>
           </div>
         </div>
         
-        <div className="hero-image">
-          {post.frontmatter.featuredImage && <Img sizes={post.frontmatter.featuredImage.childImageSharp.sizes} />}
-          <p>Photo from <a href="https://www.pexels.com" target="_blank">Pexels</a></p>
+        <div className="hero-full-screen">
+          {featuredImage && <Img sizes={featuredImage.childImageSharp.sizes} />}
+          {imageCredit && <p>Photo from {imageCredit}</p>}
         </div>
 
         <div className="main">
           <div className="blog-post-container">
-            <div className="blog-post">
-              <div
-                className="blog-post-content"
-                dangerouslySetInnerHTML={{ __html: post.html }}
-              />
-            </div>
+            <div
+              className="blog-post-content"
+              dangerouslySetInnerHTML={{ __html: post.html }}
+            />
             <div className="blog-pagination">
               {next &&
                 <Link to={next.frontmatter.path}>
@@ -85,9 +81,10 @@ class BlogPostRoute extends React.Component {
                 </Link>
               }
             </div>
-            <div className="comments">
+            <section id="comments">
+              <h3>Have your say</h3>
               <Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
-            </div>
+            </section>
           </div>
         </div>
         <div className="aside">
@@ -96,7 +93,7 @@ class BlogPostRoute extends React.Component {
               <Link to="/"><div className="image">
               </div></Link>
               <div className="bio">
-                <p>Updated on {post.frontmatter.date}</p>
+                <p>Updated on {date}</p>
                 <p>{post.timeToRead} min read</p>
               </div>
             </div>
@@ -135,6 +132,7 @@ export const pageQuery = graphql`
               }
           }
         }
+        imageCredit
       }
     }
   }

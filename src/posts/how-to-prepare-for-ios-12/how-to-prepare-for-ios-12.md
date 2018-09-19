@@ -4,6 +4,7 @@ date: "2018-09-11T15:02:26.284Z"
 path: "/how-to-prepare-for-ios-12-upgrade"
 excerpt: "iOS 12 is the latest operating system Apple will be releasing soon. Let's learn how to prepare for the upgrade."
 featuredImage: "./ios-12.jpg"
+imageCredit: 'Apple'
 ---
 
 Tomorrow (September 12) is Apple Special Event and the day in which the giant tech company will let us know when the release date for iOS 12 will be. iOS 12 will be the latest operating system that runs on your iPhones, iPads, and iPod Touch.
@@ -12,7 +13,7 @@ iOS 12 is packed with lots of exciting and cool features. You can now control ho
 
 But like installation any new major software, you should get ready by preparing your device for the big update.
 
-### Check device compatibility
+## Check device compatibility
 
 Despite carrying many new features and performance upgrades, iOS 12 will work with any devices that can run on iOS 11. That means the following devices can upgrade and run iOS 12 when it is available:
 
@@ -31,7 +32,7 @@ Do you have apps that you may not need anymore? You may consider temporarily “
 
 To do so, simply go to `General` -> `iPhone Storage`. There you can tap on any application you want to remove and select Offload App.
 
-### Make sure apps are updated
+## Make sure apps are updated
 
 At this point, any major apps on your iPhone will probably be ready when iOS 12 comes out for the public to download and install. That means that if you haven’t yet updated some apps you’ve downloaded from the App Store, then it is recommended that you go ahead and start updating them.
 
@@ -39,7 +40,7 @@ In general, you should always update any of your apps to the latest version to e
 
 Remember that in order for many of your apps to work on iOS 12, they’ll have to be updated anyway.
 
-### Back up your devices
+## Back up your devices
 
 It’s always important to back up the content on your devices. With iCloud, you can easily back up your data to the cloud and easily retrieve them when you have access to the Internet.
 
@@ -47,7 +48,7 @@ In case some of you still remember how back up works before iCloud was introduce
 
 But whichever method you choose to go with does not matter as long as you do back up your data.
 
-### Now wait for iOS 12 to come out
+## Now wait for iOS 12 to come out
 
 You’ve done everything necessary to ensure you can comfortably sit back and relax when your device is being upgraded to iOS 12.
 

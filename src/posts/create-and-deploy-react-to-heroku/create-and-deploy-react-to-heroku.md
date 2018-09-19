@@ -4,13 +4,14 @@ date: "2018-09-18T12:39:57"
 title: "Creating and Deploying a React site on Heroku"
 excerpt: "React is very popular for frontend development. And it's becoming dead simple and fast to publish your React project online using Heroku, a cloud platform."
 featuredImage: "./heroku.png"
+imageCredit: 'Heroku'
 ---
 
 Ever since the team behind React introduces us to [create-react-app](https://github.com/facebook/create-react-app), an easy way to start building single-page application in React, it seems like everybody’s picking up React as the preferred choice for a new web project.
 
 Today’s post will explore how you can deploy your React project on the Heroku platform.
 
-### Before We Begin
+## Before We Begin
 
 I assume you have some knowledge of [React](https://reactjs.org/), create-react-app, [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), and a terminal emulator of choice.
 
@@ -34,7 +35,7 @@ Authentication successful.
 
 Now you are ready to create/deploy your Heroku app!
 
-### Heroku vs. Amazon AWS
+## Heroku vs. Amazon AWS
 
 If you are familiar with [Amazon Web Services (AWS)](https://aws.amazon.com/), then there’s a really good chance you have already heard of Heroku before.
 
@@ -48,7 +49,7 @@ From my own experience, Amazon AWS products tend to be a little bit more difficu
 
 Heroku and Amazon AWS both offers a free tier to let you experiment with their products. When your product exceeds the specifications that the free tier allows for, you will have to then consider cost efficiency, which is an entirely different topic. For that, I suggest researching more on your own.
 
-### Create & Deploy a React App
+## Create & Deploy a React App
 
 If you have not already created your React application, then you can follow the instructions below to create your application.
 
@@ -83,7 +84,7 @@ And viola, your project will be deployed directly to Heroku. Within your Heroku 
 
 That’s all it takes to deploy your site!
 
-### Multiple Git Remote
+## Multiple Git Remote
 
 When you run the command `git push heroku master`, you are pushing your code to Heroku and not something like GitHub.
 
@@ -112,7 +113,7 @@ So now you can simply choose where to push your code.
 
 That’s all it takes to have multiple remotes. Not too bad I hope!
 
-### Automatic Deploy After Pushing to GitHub
+## Automatic Deploy After Pushing to GitHub
 
 For some of my projects, I’d rather push the code to a branch on GitHub and let Heroku automatically deploy the site whenever it detects new changes.
 

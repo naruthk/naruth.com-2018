@@ -3,7 +3,8 @@ path: "/font-github"
 date: "2018-09-01T22:12:35"
 title: "Font That GitHub Uses"
 excerpt: "Out of pure curiosity, I researched what font system does GitHub uses to display its Markdown content and code snippet. To my surprise, here's what I found."
-featuredImage: "../rawpixel-abstract.jpeg"
+featuredImage: "../generic.jpeg"
+imageCredit: 'Pexels'
 ---
 
 I’ve always been curious about the font that GitHub uses to render all our Markdown files.

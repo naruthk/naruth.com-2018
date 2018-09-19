@@ -5,54 +5,58 @@ import 'font-awesome/css/font-awesome.min.css'
 
 class Links extends Component {
   render() {
+    const topMenu = [
+      {
+        name: 'Home',
+        href: '/',
+      },
+      {
+        name: 'About',
+        href: '/about',
+      },
+      {
+        name: 'Blog',
+        href: '/blog',
+      },
+      {
+        name: 'Contact',
+        href: '/contact',
+      }
+    ]
+    const bottomMenu = [
+      {
+        className: 'fa fa-github',
+        href: 'https://www.github.com/naruthk',
+      },
+      {
+        className: 'fa fa-twitter',
+        href: 'https://www.twitter.com/naruthkongurai',
+      },
+      {
+        className: 'fa fa-linkedin',
+        href: 'https://www.linkedin.com/in/naruthkongurai',
+      },
+      {
+        className: 'fa fa-codepen',
+        href: 'https://codepen.io/naruthk',
+      }
+    ]
+
     return (
       <div className="links">
-
+      
         <ul className="icons-list">
-          <li className="icon">
-            <a href="/">
-              Home
-            </a>
-          </li>
-          <li className="icon">
-            <a href="/blog">
-              Blog
-            </a>
-          </li>
-          <li className="icon">
-            <a href="/contact">
-              Contact
-            </a>
-          </li>
+          {topMenu.map((item) => {
+            return <li className="icon"><a href={item.href}>{item.name}</a></li>
+          })}
         </ul>
-
+        
         <ul className="icons-list">
-          {/* <li className="icon">
-            <a href="mailto:nkongurai@gmail.com" target="_blank">
-              <i className="fa fa-envelope"></i>
-            </a>
-          </li> */}
-          <li className="icon">
-            <a href="https://www.github.com/naruthk" target="_blank">
-              <i className="fa fa-github"></i>
-            </a>
-          </li>
-          <li className="icon">
-            <a href="https://www.twitter.com/naruthkongurai" target="_blank">
-              <i className="fa fa-twitter"></i>
-            </a>
-          </li>
-          <li className="icon">
-            <a href="https://www.linkedin.com/in/naruthkongurai" target="_blank">
-              <i className="fa fa-linkedin"></i>
-            </a>
-          </li>
-          <li className="icon">
-            <a href="https://codepen.io/naruthk" target="_blank">
-              <i className="fa fa-codepen"></i>
-            </a>
-          </li>
+          {bottomMenu.map((item) => {
+            return <li className="icon"><a href={item.href} target="_blank"><i className={item.className}></i></a></li>
+          })}
         </ul>
+        
         <div className="small">
           Built with ❤️ using <a href="https://www.gatsbyjs.org/" target="_blank">GatsbyJS</a>
         </div>

@@ -4,6 +4,7 @@ date: "2018-09-08T18:02:26.284Z"
 path: "/interview-questions"
 excerpt: "I've been applying for jobs at many companies ever since I graduated in June 2018. I am maintaing a list of interview questions (not all) I've been asked in the past."
 featuredImage: "./paper.jpeg"
+imageCredit: 'Pexels'
 ---
 
 Interviews can be daunting but they are how companies evaluate our fit for the job we're applying for. As a recent grad from the University of Washington, I am also searching for jobs in the tech industry. My preference is in website development with React and JavaScript.
@@ -13,7 +14,7 @@ Most of the questions I've listed down below are from companies ranging from sta
 This list is personally intended for me to keep track of the questions I've been asked before. My goal is try to improve my answers to these questions. As the interviewee, sometimes the same type of questions will be thrown at you despite being interviewed at different companies. So knowing what you were asked on and improving your answers to the questions will extremely help you in the next interview.
 
 
-### Behavioral
+## Behavioral
 
 - Tell me more about yourself
 - Why do you apply for this position when you are a web/mobile developer?
@@ -28,12 +29,12 @@ This list is personally intended for me to keep track of the questions I've been
 - Do you see yourself being able to overcome the first hurdles?
 - How do you think you can help us gain profit?
 
-### Logistical
+## Logistical
 
 - When can you start?
 - What is your employment status?
 
-### Work Experience
+## Work Experience
 
 - How much website/mobile development experience do you have?
 - Describe a project you like most.
@@ -42,7 +43,7 @@ This list is personally intended for me to keep track of the questions I've been
 - Have you done any testing before in your previous projects? If so, how?
 - Do you have experience working with other teams at your company?
 
-### Internet / Cloud
+## Internet / Cloud
 
 - What is a DNS?
 - What is the difference between registry, registrar, and registrant?
@@ -50,14 +51,14 @@ This list is personally intended for me to keep track of the questions I've been
 - What are top-level domains?
 - What are the two Internet Protocol versions?
 
-### Community
+## Community
 
 - Tell me about your experience working on support forums.
 - Tell us your experience working with the community.
 - Tell me what is your most enjoyable moments in college?
 - Have you ever done any community support work?
 
-### Web Development Questions
+## Web Development Questions
 
 - Tell me more about how you deploy your website.
 - Tell me more about how a website gets into production. Start from the beginning.

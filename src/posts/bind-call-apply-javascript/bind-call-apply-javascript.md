@@ -1,9 +1,10 @@
 ---
 path: "/bind-call-apply-javascript"
 date: "2018-09-18T14:37:05"
-title: "JavaScript: .bind(), .call(), .apply()"
-excerpt: "JavaScript is huge in the web development world. So it is important to understand some of the language’s trickiest things like these built-in methods: `.bind()`, `.call()`, and `.apply()`."
-featuredImage: "../rawpixel-abstract.jpeg"
+title: "JavaScript: bind(), call(), apply()"
+excerpt: "JavaScript is huge in the web development world. So it is important to understand some of the language’s trickiest things like these built-in methods: bind(), call(), and apply()."
+featuredImage: "../generic.jpeg"
+imageCredit: 'Pexels'
 ---
 
 Perhaps the most important thing to note is that all of these built-in methods are designed to let you set what “**this**” refers to. In other words, you can change the context for a given function.
