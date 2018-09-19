@@ -11,7 +11,7 @@ class Links extends Component {
         <ul className="icons-list">
           <li className="icon">
             <a href="/">
-              NK
+              Home
             </a>
           </li>
           <li className="icon">
@@ -27,11 +27,11 @@ class Links extends Component {
         </ul>
 
         <ul className="icons-list">
-        <li className="icon">
+          {/* <li className="icon">
             <a href="mailto:nkongurai@gmail.com" target="_blank">
               <i className="fa fa-envelope"></i>
             </a>
-          </li>
+          </li> */}
           <li className="icon">
             <a href="https://www.github.com/naruthk" target="_blank">
               <i className="fa fa-github"></i>

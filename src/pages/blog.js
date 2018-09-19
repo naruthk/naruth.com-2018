@@ -19,8 +19,8 @@ class BlogPage extends React.Component {
         <div className="main">
 
           <Breadcrumb linkTo="Blog" />
-          
-          <h3 className="bold">A collection of my thoughts put into writing. Mostly about latest technology, innovation, programming, and life experiences.</h3>
+
+          {/* <h3 className="bold">A collection of my thoughts put into writing. Mostly about latest technology, innovation, programming, and life experiences.</h3> */}
 
           <BlogPostSection postsData={this.props.data.allMarkdownRemark} />
 
