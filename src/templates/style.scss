@@ -6,7 +6,16 @@ pre, code {
 }
 
 code {
-  padding: 3px 10px 3px 10px !important;
+  padding: 3px 7px 3px 7px !important;
+}
+
+code.language-text {
+  background-color: #eee !important;
+  color: darkslategrey !important;
+}
+
+pre[class*="language-"] > code {
+  margin: -0.7rem;
 }
 
 a {
@@ -59,8 +68,8 @@ a {
   font-size: 1.9rem;
   margin: 50px 0 100px 0;
 
-  h3, h4, h5 {
-    margin-top: 50px;
+  h2, h3, h4, h5 {
+    margin-top: 70px;
   }
 }
 

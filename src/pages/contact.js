@@ -22,8 +22,11 @@ export default class Contact extends React.Component {
           
             <h3 className="bold">Here's how to reach out to me:</h3>
 
-            <p>I am currently looking for a job - <b>full-time, software engineering, website development</b>, focusing on React and other latest technologies.</p>
-            <p>If you would like to get in touch, please shoot me an email at <a href="mailto:nkongurai@gmail.com">nkongurai@gmail.com</a> and I’ll try get back to you within a day or so!</p>
+            <p>I am currently seeking an entry-level software development (web / mobile) position in or near Seattle, Redmond, Los Angeles, and San Francisco.</p>
+            
+            <p>My email address is <a href="mailto:nkongurai@gmail.com">nkongurai@gmail.com</a>.</p>
+
+            <p>I will promply respond to your message within a day or so!</p>
           </div>
 
         </div>

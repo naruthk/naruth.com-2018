@@ -7,6 +7,25 @@ class Links extends Component {
   render() {
     return (
       <div className="links">
+
+        <ul className="icons-list">
+          <li className="icon">
+            <a href="/">
+              NK
+            </a>
+          </li>
+          <li className="icon">
+            <a href="/blog">
+              Blog
+            </a>
+          </li>
+          <li className="icon">
+            <a href="/contact">
+              Contact
+            </a>
+          </li>
+        </ul>
+
         <ul className="icons-list">
         <li className="icon">
             <a href="mailto:nkongurai@gmail.com" target="_blank">
