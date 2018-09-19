@@ -7,9 +7,6 @@ import Disqus from 'disqus-react';
 
 import Header from '../components/Header'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
-
 require("prismjs/themes/prism-tomorrow.css");
 
 import '../pages/style.scss';
@@ -67,7 +64,7 @@ class BlogPostRoute extends React.Component {
                   <div className="left">
                     <span>Previous</span>
                     <h3>{next.frontmatter.title}</h3>
-                    <FontAwesomeIcon icon={faArrowLeft} size="2x" />
+                    <i className="fa fa-fw fa-arrow-left" />
                   </div>
                 </Link>
               }
@@ -76,7 +73,8 @@ class BlogPostRoute extends React.Component {
                   <div className="right">
                     <span>Next</span>
                     <h3>{prev.frontmatter.title}</h3>
-                    <FontAwesomeIcon icon={faArrowRight} size="2x" />
+                    <i className="fa fa-fw fa-arrow-right" />
+
                   </div>
                 </Link>
               }
