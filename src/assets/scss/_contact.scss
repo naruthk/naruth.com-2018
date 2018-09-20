@@ -10,6 +10,12 @@
     margin: 0 0 10px 0;
   }
 
+  input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
   input[type="text"],
 	input[type="password"],
 	input[type="email"],
@@ -81,17 +87,22 @@
   }
 
   input[type="submit"] {
+    border: 2px solid transparent;
     background-color: $link-color;
     color: #fff;
     &:hover {
       background-color: darkorange;
+      border: 2px solid transparent;
     }
+    transition: 0.6s all;
   }
 
   input[type="reset"] {
+    border: 2px solid $link-color;
     color: $link-color;
     &:hover {
       color: darkorange;
+      border: 2px solid darkorange;
     }
   }
   
