@@ -1,10 +1,8 @@
+@import '../../assets/scss/main.scss';
+
 #header {
 
   text-align: center;
-  // display: flex;
-  // display: -ms-flex;
-  // display: -webkit-flex;
-  // justify-content: space-between;
   margin-bottom: 50px; 
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -12,28 +10,20 @@
   a {
     color: black;
   }
-
   .logo {
-    font-size: 1.5em;
+
+    @include media('>=large') {
+      font-size: 1.5em;
+    }
+    @include media('>=medium', '<large') {
+      font-size: 1.5em;
+    }
+    @include media('>xsmall', '<medium') {
+      font-size: 1.1em;
+    }
+    @include media('<=xsmall') {
+      font-size: 1.1em;
+    }
+
   }
-
-  // .left, .right {
-  //   flex-grow: 1;
-  //   flex-basis: auto;
-  // }
-
-  // .left {
-  //   a {
-  //     color: black;
-  //   }
-  // }
-
-  // .right {
-  //   text-align: right;
-  // }
-  
-  // span {
-  //   text-transform: uppercase;
-  //   font-weight: 600;
-  // }
 }
