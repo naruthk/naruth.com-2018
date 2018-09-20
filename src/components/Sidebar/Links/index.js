@@ -51,7 +51,7 @@ class Links extends Component {
       
         <ul className="icons-list">
           {topMenu.map((item, index) => {
-            return <li key={item.name + '-' + index} className="icon"><a href={item.href} title={item.name}>{item.name}</a></li>
+            return <li key={item.name + '-' + index} className="icon"><a href={item.href} title={item.name} rel="noreferrer">{item.name}</a></li>
           })}
         </ul>
 
@@ -64,7 +64,8 @@ class Links extends Component {
                 <a 
                   href={item.href} 
                   target="_blank" 
-                  title={item.name}>
+                  title={item.name}
+                  rel="noreferrer">
                   <FontAwesomeIcon icon={['fab', `${item.className}`]} size="lg" />
                 </a>
               </li>
@@ -73,7 +74,7 @@ class Links extends Component {
         </ul>
         
         <div className="small">
-          Built with ❤️ using <a href="https://www.gatsbyjs.org/" target="_blank">GatsbyJS</a>
+          Built with ❤️ using <a href="https://www.gatsbyjs.org/" target="_blank" rel="noreferrer">GatsbyJS</a>
         </div>
         <div className="small">
           &copy; 2017-2018 . Naruth Kongurai

@@ -5,12 +5,10 @@ import Link from 'gatsby-link';
 import Img from 'gatsby-image';
 import Disqus from 'disqus-react';
 import LazyLoad from 'react-lazyload';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 import Header from '../components/Header'
 
-require("prismjs/themes/prism-tomorrow.css");
+import 'prismjs/themes/prism-tomorrow.css'
 import './style.scss';
 
 class BlogPostRoute extends React.Component {
