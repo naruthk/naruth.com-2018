@@ -70,7 +70,8 @@ export default class AboutPage extends React.Component {
         <div className="main">
           <Section>
             <h3>If you've read this far...</h3>
-            <h4>Here's a longer, more description version of my life.</h4>
+            <h4>Here's a longer, more descriptive narrative about me.</h4>
+            
             <p>I grew up in Bangkok, Thailand, and spent my childhood years there until I moved to the Seattle, Washington USA in 2014 to attend the University of Washington. Ever since then, I’ve grown a passion for travelling, going as far north as Alaska and Canada, as far as South as Cancun, Mexico, and as far as east of the United States as New York City. Everywhere I visit I often collect Starbucks cards (I emptied out the balance, of course) and also bought souvenirs here and there.</p>
 
             <p>I also love to sample and taste wine. They’re extremely expensive, for someone like me as a university student to afford. But I enjoy working part-time (been doing it since freshman year) on the university’s campus and earn enough money to travel the world, find and taste good wines, and buy tech products I wish for.</p>

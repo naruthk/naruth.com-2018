@@ -2,6 +2,19 @@
   position: relative;
   img {
     z-index: 0;
+    width: 100%;
+    // @include media('>=large') {
+    //   width: 100%;
+    // }
+    // @include media('>=medium', '<large') {
+    //   width: 70%;
+    // }
+    // @include media('>xsmall', '<medium') {
+    //   width: 100%;
+    // }
+    // @include media('<=xsmall') {
+    //   width: 100%;
+    // }
   }
   p {
     text-align: center;
