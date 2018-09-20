@@ -20,14 +20,13 @@ class ExperienceUnit extends Component {
             <div
               className="image"
               style={{
-                // backgroundImage: `url(${this.props.logo})`,
                 backgroundImage: `url(${imageUrl})`,
                 backgroundColor: this.props.colour
               }}>
               <span>{this.props.title}</span>
             </div>
           </a>
-          <div className="title bold">
+          <div className="title">
             {this.props.title}
           </div>
           <div className="time-period">

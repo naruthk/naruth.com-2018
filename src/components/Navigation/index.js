@@ -44,6 +44,7 @@ class MenuWrap extends Component {
 export default class Navigation extends Component {
   constructor (props) {
     super(props);
+    // Options: slide, stack, elastic, bubble, push, pushRotate, scaleDown, scaleRotate, fallDown, reveal
     this.state = {
       currentMenu: 'stack',
       side: 'left'
@@ -55,20 +56,35 @@ export default class Navigation extends Component {
   }
 
   getItems() {
-    return [
-      <a key="0" href="/" className="menu-item">
-        <FontAwesomeIcon icon="home" /><span>Home</span>
-      </a>,
-      <a key="1" href="/about" className="menu-item">
-        <FontAwesomeIcon icon="user" /><span>About</span>
-      </a>,
-      <a key="2" href="/blog" className="menu-item">
-        <FontAwesomeIcon icon="newspaper" /><span>Blog</span>
-      </a>,
-      <a key="3" href="/contact" className="menu-item">
-        <FontAwesomeIcon icon="envelope" /><span>Contact</span>
-      </a>
-    ];
+    const globalMenu = [
+      {
+        name: 'Home',
+        iconName: 'home',
+        href: '/',
+      },
+      {
+        name: 'About',
+        iconName: 'user',
+        href: '/about',
+      },
+      {
+        name: 'Blog',
+        iconName: 'newspaper',
+        href: '/blog',
+      },
+      {
+        name: 'Contact',
+        iconName: 'envelope',
+        href: '/contact',
+      }
+    ]
+    // const globalMenu = this.props.data.site.siteMetadata.globalMenu;
+
+    return globalMenu.map((menu, index) => {
+      return <a key={index} href={menu.href} className="menu-item">
+      <FontAwesomeIcon icon={menu.iconName} fixedWidth /><span className="name">{menu.name}</span>
+    </a>
+    })
   }
 
   getMenu() {
@@ -100,15 +116,6 @@ export default class Navigation extends Component {
   }
 
   render() {
-    // const buttons = Object.keys(this.props.menus).map((menu) => {
-    //   return (
-    //     <a key={menu}
-    //       className={classNames({'current-demo': menu === this.state.currentMenu})}
-    //       onClick={this.changeMenu.bind(this, menu)}>
-    //       {this.props.menus[menu].buttonText}
-    //     </a>
-    //   );
-    // });
     return (
       <div id="outer-container" style={{height: '100%'}}>
         {this.getMenu()}
@@ -119,15 +126,27 @@ export default class Navigation extends Component {
   }
 }
 
-const menus = {
-  slide: {buttonText: 'Slide', items: 1},
-  stack: {buttonText: 'Stack', items: 1},
-  elastic: {buttonText: 'Elastic', items: 1},
-  bubble: {buttonText: 'Bubble', items: 1},
-  push: {buttonText: 'Push', items: 1},
-  pushRotate: {buttonText: 'Push Rotate', items: 2},
-  scaleDown: {buttonText: 'Scale Down', items: 2},
-  scaleRotate: {buttonText: 'Scale Rotate', items: 2},
-  fallDown: {buttonText: 'Fall Down', items: 2},
-  reveal: {buttonText: 'Reveal', items: 1}
-};
+// export const navigationFragment = graphql`
+//   fragment navigationItems on Site {
+//     siteMetadata {
+//       globalMenu {
+//         name
+//         iconName
+//         href
+//       }
+//       socialMenu {
+//         className
+//         name
+//         href
+//       }
+//     }
+//   }
+// `;
+
+// export const componentQuery = graphql`
+//   query NavigationComponent {
+//     site {
+//       ...navigationItems
+//     }
+//   }
+// `;

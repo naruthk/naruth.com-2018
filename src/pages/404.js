@@ -42,13 +42,3 @@ export default class NotFoundRoute extends React.Component {
     );
   }
 }
-
-export const pageQuery = graphql`
-  query NotFoundRoute {
-      site {
-          siteMetadata {
-              title
-          }
-      }
-  }
-`;

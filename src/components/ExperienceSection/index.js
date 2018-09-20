@@ -1,13 +1,6 @@
 import React from 'react'
-import { Image } from 'cloudinary-react';
 import Section from '../Section'
 import ExperienceUnit from '../ExperienceUnit'
-
-// import dapperLogo from '../../assets/images/experience/dapper-logo.jpeg'
-// import uwLogo from '../../assets/images/experience/uw-logo.jpg'
-// import ogilvyLogo from '../../assets/images/experience/ogilvy-logo.png'
-// import bitseeLogo from '../../assets/images/experience/bitsee-logo.png'
-// import cpallLogo from '../../assets/images/experience/cpall-logo.png'
 
 class ExperienceSection extends React.Component {
   render() {
@@ -17,7 +10,6 @@ class ExperienceSection extends React.Component {
 
           <ExperienceUnit
             cloudinaryImageUrl='experience/dapper-logo'
-            // logo={dapperLogo}
             colour='#FFFFFF'
             title='Dapper Grooming Hub'
             link='https://www.dapperseattle.com/'
@@ -26,7 +18,6 @@ class ExperienceSection extends React.Component {
           />
           <ExperienceUnit
             cloudinaryImageUrl='experience/uw-logo'
-            // logo={uwLogo}
             colour='#291D4F'
             title='University of Washington'
             link='https://www.uw.edu/'
@@ -35,7 +26,6 @@ class ExperienceSection extends React.Component {
           />
           <ExperienceUnit
             cloudinaryImageUrl='experience/ogilvy-logo'
-            // logo={ogilvyLogo}
             colour='#E2001A'
             title='OgilvyOne Worldwide'
             link='https://www.ogilvy.com/'
@@ -44,7 +34,6 @@ class ExperienceSection extends React.Component {
           />
           <ExperienceUnit
             cloudinaryImageUrl='experience/bitsee-logo'
-            // logo={bitseeLogo}
             colour='#FFFFFF'
             title='Bitsee'
             link='https://www.bitsee.ai/'
@@ -53,7 +42,6 @@ class ExperienceSection extends React.Component {
           />
           <ExperienceUnit
             cloudinaryImageUrl='experience/cpall-logo'
-            // logo={cpallLogo}
             colour='#FFFFFF'
             title='Charoen Phokpand'
             link='https://www.cpall.co.th/'

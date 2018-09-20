@@ -8,9 +8,9 @@ class About extends Component {
     return (
       <div className="about">
         <Link to="/"><div className="image">
-        </div></Link>
+        <span>Naruth Kongurai</span></div></Link>
         <div className="bio">
-          <p><span className="bold">Front End Developer</span> who focuses on writing clean, elegant and efficient code.</p>
+          <p><span className="bold">Front End Developer</span> who focuses on writing clean, elegant and reusable code.</p>
         </div>
       </div>
     )

@@ -2,6 +2,8 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import get from 'lodash/get'
 import Navigation from '../components/Navigation'
+import 'typeface-chivo';
+import 'typeface-open-sans';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'

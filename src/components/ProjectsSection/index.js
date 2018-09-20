@@ -2,14 +2,6 @@ import React from 'react'
 import Section from '../Section'
 import ExperienceUnit from '../ExperienceUnit'
 
-// import dailynotesApp from '../../assets/images/projects/daily-notes-app.png'
-// import dcvoteApp from '../../assets/images/projects/dc-vote-app.png'
-// import showdcWeb from '../../assets/images/projects/show-dc-web.png'
-// import niveaWeb from '../../assets/images/projects/nivea-thailand-web.png'
-// import digitalclockExtension from '../../assets/images/projects/digital-clock-extension.png'
-// import portfoliotemplateWeb from '../../assets/images/projects/portfolio-template-web.png'
-// import moviesFinderApp from '../../assets/images/projects/movies-finder-app.png'
-
 class ProjectsSection extends React.Component {
   render() {
     return (
@@ -17,7 +9,6 @@ class ProjectsSection extends React.Component {
         <div className="row">
         <ExperienceUnit
             cloudinaryImageUrl='projects/movies-finder-app'
-            // logo={moviesFinderApp}
             colour="#FFFFFF"
             title="Movies Finder App"
             link="https://movies-finder-app.herokuapp.com/"
@@ -26,7 +17,6 @@ class ProjectsSection extends React.Component {
           />
           <ExperienceUnit
             cloudinaryImageUrl='projects/show-dc-web'
-            // logo={showdcWeb}
             colour="#FFFFFF"
             title="SHOW DC Mall Website"
             link="https://www.showdc.co.th"
@@ -35,7 +25,6 @@ class ProjectsSection extends React.Component {
           />
           <ExperienceUnit
             cloudinaryImageUrl='projects/nivea-thailand-web'
-            // logo={niveaWeb}
             colour="#FFFFFF"
             title="Nivea Thailand Website"
             link="https://www.nivea.co.th"
@@ -44,7 +33,6 @@ class ProjectsSection extends React.Component {
           />
           <ExperienceUnit
             cloudinaryImageUrl='projects/digital-clock-extension'
-            // logo={digitalclockExtension}
             colour="#FFFFFF"
             title="Digital Clock Extension"
             link="https://chrome.google.com/webstore/detail/beautiful-digital-clock-w/jdnjafgehddcpoahelddbflpmoeinaed"
@@ -53,7 +41,6 @@ class ProjectsSection extends React.Component {
           />
           <ExperienceUnit
             cloudinaryImageUrl='projects/portfolio-template-web'
-            // logo={portfoliotemplateWeb}
             colour="#FFFFFF"
             title="Portfolio HTML5 Template"
             link="https://github.com/naruthk/web-theme-portfolio"
@@ -62,7 +49,6 @@ class ProjectsSection extends React.Component {
           />
           <ExperienceUnit
             cloudinaryImageUrl='projects/daily-notes-app'
-            // logo={dailynotesApp}
             colour="#FFFFFF"
             title="Daily Notes App"
             link="https://itunes.apple.com/US/app/true/id1299564920"
@@ -71,10 +57,8 @@ class ProjectsSection extends React.Component {
           />
           <ExperienceUnit
             cloudinaryImageUrl='projects/dc-vote-app'
-            // logo={dcvoteApp}
             colour="#FFFFFF"
             title="DC Vote App"
-            // link=""
             timeperiod="2016"
             subtitle="A rating app used in 9000 7-Eleven convenience stores in Thailand. Built for Android."
           />

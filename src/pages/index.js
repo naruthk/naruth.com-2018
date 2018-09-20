@@ -5,9 +5,12 @@ import ProjectsSection from '../components/ProjectsSection'
 import About from '../components/Sidebar/About'
 import Links from '../components/Sidebar/Links'
 import Header from '../components/Header'
+
+// import AnimatedPortrait from '../components/AnimatedPortrait'
+// import { Parallax, ParallaxLayer } from 'react-spring';
+
 import Banner from '../components/Banner'
 
-// import 'font-awesome/css/font-awesome.min.css'
 import './style.scss'
 
 export default class IndexPage extends React.Component {
@@ -32,6 +35,8 @@ export default class IndexPage extends React.Component {
         <div className="main">
 
           <Header />
+
+          {/* <AnimatedPortrait /> */}
 
           <h3 className="bold">I <span className="pop-up" data-info="Sketch, Adobe Photoshop, Adobe XD, Figma, Invision">design</span> and build <span className="pop-up" data-info="JavaScript, React, Node.JS, PHP, Express, MongoDB, GraphQL, Wordpress, Chrome Extension">web</span> and <span className="pop-up" data-info="iOS, Android, Swift, Kotlin, Java, Google Firebase, Google APIs, AWS Incognito, Genymotion, Flutter, React Native">mobile</span> apps with emphasis on producing user-friendly and useful products.</h3>
 
