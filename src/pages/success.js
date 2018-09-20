@@ -3,10 +3,10 @@ import Helmet from "react-helmet";
 import About from '../components/Sidebar/About'
 import Links from '../components/Sidebar/Links'
 import Header from '../components/Header'
+import Banner from '../components/Banner'
 
 import './style.scss'
 
-import fullScreenImage from '../assets/images/full-width-photo.jpeg'
 
 export default class ContactSuccess extends React.Component {
   render() {
@@ -23,9 +23,8 @@ export default class ContactSuccess extends React.Component {
           <h4>Thank you so much. I will get back to you as soon as possible.</h4>
         </div>
 
-        <div className="hero-full-screen">
-          <img src={fullScreenImage} />
-        </div>
+        
+        <Banner />
 
         <div className="aside">
           <div className="top">

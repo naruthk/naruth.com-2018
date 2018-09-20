@@ -5,11 +5,10 @@ import ProjectsSection from '../components/ProjectsSection'
 import About from '../components/Sidebar/About'
 import Links from '../components/Sidebar/Links'
 import Header from '../components/Header'
+import Banner from '../components/Banner'
 
-import 'font-awesome/css/font-awesome.min.css'
+// import 'font-awesome/css/font-awesome.min.css'
 import './style.scss'
-
-import fullScreenImage from '../assets/images/full-width-photo.jpeg'
 
 export default class IndexPage extends React.Component {
 
@@ -42,9 +41,7 @@ export default class IndexPage extends React.Component {
 
         </div>
 
-        <div className="hero-full-screen">
-          <img src={fullScreenImage} />
-        </div>
+        <Banner />
 
         <div className="main">
 

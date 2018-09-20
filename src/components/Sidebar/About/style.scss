@@ -5,13 +5,13 @@ $margin-bottom: 40px;
 
 .about {
   color: $grey-color-light;
-
+  
   .image {
     width: 180px;
     max-width: $max-width;
     height: 180px;
     background-size: cover;
-    background-image: url(../../../assets/images/naruthk.jpg);
+    background-image: url('https://res.cloudinary.com/naruthk/image/upload/c_scale,w_250/naruthk.com/general/naruthk.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     border-radius: 50%;

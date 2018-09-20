@@ -4,15 +4,14 @@ import Links from "../components/Sidebar/Links";
 import Link from 'gatsby-link';
 import Img from 'gatsby-image';
 import Disqus from 'disqus-react';
+import LazyLoad from 'react-lazyload';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import Header from '../components/Header'
 
 require("prismjs/themes/prism-tomorrow.css");
-
-import '../pages/style.scss';
-import '../components/Sidebar/About/style.scss';
 import './style.scss';
-import '../components/Sidebar/About';
 
 class BlogPostRoute extends React.Component {
   render() {
@@ -54,17 +53,21 @@ class BlogPostRoute extends React.Component {
 
         <div className="main">
           <div className="blog-post-container">
+          
+            <LazyLoad height={200}>
             <div
               className="blog-post-content"
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
+            </LazyLoad>
+
             <div className="blog-pagination">
               {next &&
                 <Link to={next.frontmatter.path}>
                   <div className="left">
                     <span>Previous</span>
                     <h3>{next.frontmatter.title}</h3>
-                    <i className="fa fa-fw fa-arrow-left" />
+                    <FontAwesomeIcon icon="arrow-left" size="2x" />
                   </div>
                 </Link>
               }
@@ -73,7 +76,7 @@ class BlogPostRoute extends React.Component {
                   <div className="right">
                     <span>Next</span>
                     <h3>{prev.frontmatter.title}</h3>
-                    <i className="fa fa-fw fa-arrow-right" />
+                    <FontAwesomeIcon icon="arrow-right" size="2x" />
 
                   </div>
                 </Link>

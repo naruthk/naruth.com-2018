@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import './style.scss'
-import 'font-awesome/css/font-awesome.min.css'
 
 class Links extends Component {
   render() {
@@ -25,19 +25,23 @@ class Links extends Component {
     ]
     const bottomMenu = [
       {
-        className: 'fa fa-github',
+        className: 'github',
+        name: 'GitHub',
         href: 'https://www.github.com/naruthk',
       },
       {
-        className: 'fa fa-twitter',
+        className: 'twitter',
+        name: 'Twitter',
         href: 'https://www.twitter.com/naruthkongurai',
       },
       {
-        className: 'fa fa-linkedin',
+        className: 'linkedin',
+        name: 'Linkedin',
         href: 'https://www.linkedin.com/in/naruthkongurai',
       },
       {
-        className: 'fa fa-codepen',
+        className: 'codepen',
+        name: 'Codepen',
         href: 'https://codepen.io/naruthk',
       }
     ]
@@ -46,14 +50,25 @@ class Links extends Component {
       <div className="links">
       
         <ul className="icons-list">
-          {topMenu.map((item) => {
-            return <li className="icon"><a href={item.href}>{item.name}</a></li>
+          {topMenu.map((item, index) => {
+            return <li key={item.name + '-' + index} className="icon"><a href={item.href} title={item.name}>{item.name}</a></li>
           })}
         </ul>
-        
+
         <ul className="icons-list">
-          {bottomMenu.map((item) => {
-            return <li className="icon"><a href={item.href} target="_blank"><i className={item.className}></i></a></li>
+          {bottomMenu.map((item, index) => {
+            return (
+              <li 
+                key={item.name + '-' + index} 
+                className="icon">
+                <a 
+                  href={item.href} 
+                  target="_blank" 
+                  title={item.name}>
+                  <FontAwesomeIcon icon={['fab', `${item.className}`]} size="lg" />
+                </a>
+              </li>
+            )
           })}
         </ul>
         

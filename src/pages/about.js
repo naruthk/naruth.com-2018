@@ -4,10 +4,9 @@ import About from '../components/Sidebar/About'
 import Links from '../components/Sidebar/Links'
 import Section from  '../components/Section'
 import Header from '../components/Header'
+import Banner from '../components/Banner'
 
 import './style.scss'
-
-import fullScreenImage from '../assets/images/full-width-photo.jpeg'
 
 export default class AboutPage extends React.Component {
   render() {
@@ -27,9 +26,7 @@ export default class AboutPage extends React.Component {
           </section>
         </div>
 
-        <div className="hero-full-screen">
-          <img src={fullScreenImage} />
-        </div>
+        <Banner />
 
         <div className="main">
 
@@ -63,9 +60,7 @@ export default class AboutPage extends React.Component {
 
         </div>
         
-        <div className="hero-full-screen">
-          <img src={fullScreenImage} />
-        </div>
+        <Banner />
 
         <div className="main">
           <Section>

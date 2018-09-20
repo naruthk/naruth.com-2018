@@ -13,10 +13,14 @@
     "deploy": "gatsby build --prefix-links && gh-pages -d public"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.4",
+    "@fortawesome/free-brands-svg-icons": "^5.3.1",
+    "@fortawesome/free-solid-svg-icons": "^5.3.1",
+    "@fortawesome/react-fontawesome": "^0.1.3",
+    "cloudinary-react": "^1.0.6",
     "disqus-react": "^1.0.5",
     "flexboxgrid": "^6.3.1",
-    "font-awesome": "^4.7.0",
-    "gatsby": "^1.9.238",
+    "gatsby": "^1.9.277",
     "gatsby-image": "^1.0.55",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-google-analytics": "^1.0.24",
@@ -30,8 +34,8 @@
     "milligram-scss": "^1.3.0",
     "prismjs": "^1.15.0",
     "react-burger-menu": "^2.5.2",
-    "react-fontawesome": "^1.6.1",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-lazyload": "^2.3.0"
   },
   "devDependencies": {
     "gatsby-remark-copy-linked-files": "^1.5.37",

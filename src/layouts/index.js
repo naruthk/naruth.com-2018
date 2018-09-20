@@ -3,9 +3,14 @@ import Helmet from 'react-helmet'
 import get from 'lodash/get'
 import Navigation from '../components/Navigation'
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faHome, faUser, faNewspaper, faEnvelope, faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
+
+library.add(fab, faHome, faUser, faNewspaper, faEnvelope, faArrowLeft, faArrowRight)
+
 import './style.scss'
 
-import profileImage from '../assets/images/naruthk.jpg'
 import favicon16 from '../assets/favicons/favicon-16x16.png'
 import favicon32 from '../assets/favicons/favicon-32x32.png'
 
@@ -23,10 +28,10 @@ class TemplateWrapper extends React.Component {
         <Helmet
           title={siteTitle}
           meta={[
+            { name: 'author', content: siteTitle },
             { name: 'description', content: siteDescription },
             { name: 'keywords', content: siteKeywords },
             { property: 'og:url', content: siteURL },
-            { property: 'og:image', content: profileImage },
             { property: 'og:title', content: siteTitle },
             { property: 'og:description', content: siteDescription },
           ]}
@@ -37,9 +42,7 @@ class TemplateWrapper extends React.Component {
         />
         <div className="template-wrapper-children">
           <Navigation />
-          <main id="page-wrap">
-            { children() }
-          </main>
+          { children() }
         </div>
       </div>
     )

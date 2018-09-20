@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import BurgerMenu from 'react-burger-menu';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import './style.scss';
 
@@ -55,10 +56,18 @@ export default class Navigation extends Component {
 
   getItems() {
     return [
-      <a key="0" href="/" className="menu-item"><i className="fa fa-fw fa-home" /><span>Home</span></a>,
-      <a key="1" href="/about" className="menu-item"><i className="fa fa-fw fa-smile-o" /><span>About</span></a>,
-      <a key="2" href="/blog" className="menu-item"><i className="fa fa-fw fa-newspaper-o" /><span>Blog</span></a>,
-      <a key="3" href="/contact" className="menu-item"><i className="fa fa-fw fa-envelope-o" /><span>Contact</span></a>
+      <a key="0" href="/" className="menu-item">
+        <FontAwesomeIcon icon="home" /><span>Home</span>
+      </a>,
+      <a key="1" href="/about" className="menu-item">
+        <FontAwesomeIcon icon="user" /><span>About</span>
+      </a>,
+      <a key="2" href="/blog" className="menu-item">
+        <FontAwesomeIcon icon="newspaper" /><span>Blog</span>
+      </a>,
+      <a key="3" href="/contact" className="menu-item">
+        <FontAwesomeIcon icon="envelope" /><span>Contact</span>
+      </a>
     ];
   }
 
@@ -66,14 +75,11 @@ export default class Navigation extends Component {
     const Menu = BurgerMenu[this.state.currentMenu];
     const items = this.getItems();
 
-    const closeButton = (<a className="close-menu"><i className="fa fa-fw fa-times" /></a>)
-
     let jsx;
 
     if (this.state.side === 'right') {
       jsx = (
         <MenuWrap wait={20} side={this.state.side}>
-          {closeButton}
           <Menu id={this.state.currentMenu} pageWrapId={'page-wrap'} outerContainerId={'outer-container'} right>
             {items}
           </Menu>
@@ -84,7 +90,6 @@ export default class Navigation extends Component {
         <MenuWrap wait={20}>
           <Menu id={this.state.currentMenu} pageWrapId={'page-wrap'} 
           outerContainerId={'outer-container'}>
-            {closeButton}
             {items}
           </Menu>
         </MenuWrap>

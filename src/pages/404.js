@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "gatsby-link";
 import Helmet from "react-helmet";
 import About from '../components/Sidebar/About'
 import Links from '../components/Sidebar/Links'
@@ -9,9 +8,6 @@ import './style.scss'
 
 export default class NotFoundRoute extends React.Component {
   render() {
-
-    const siteTitle = this.props.data.site.siteMetadata.title;
-
     return (
       <div className="index">
         <Helmet title={`404 Page not found`} />

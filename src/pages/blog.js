@@ -5,9 +5,6 @@ import Header from '../components/Header'
 import Helmet from 'react-helmet'
 import BlogPostSection from '../components/BlogSection';
 
-
-import fullScreenImage from '../assets/images/full-width-photo.jpeg'
-
 import './style.scss'
 
 class BlogPage extends React.Component {
