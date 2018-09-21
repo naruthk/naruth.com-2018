@@ -38,8 +38,7 @@
     "prismjs": "^1.15.0",
     "react-burger-menu": "^2.5.2",
     "react-helmet": "^5.2.0",
-    "react-lazyload": "^2.3.0",
-    "webfontloader": "^1.6.28"
+    "react-lazyload": "^2.3.0"
   },
   "devDependencies": {
     "gatsby-remark-copy-linked-files": "^1.5.37",
