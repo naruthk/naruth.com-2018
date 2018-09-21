@@ -4,7 +4,7 @@ import LazyLoad from 'react-lazyload';
 class Banner extends Component {
 
   render() {
-    const BASE_URL = 'https://res.cloudinary.com/naruthk/image/upload/c_scale,w_auto,dpr_auto/naruthk.com/general/'
+    const BASE_URL = 'https://res.cloudinary.com/naruthk/image/upload/c_scale,w_750,dpr_auto/naruthk.com/general/'
     
     return (
       <div className="hero-full-screen">

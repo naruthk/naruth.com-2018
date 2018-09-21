@@ -7,7 +7,7 @@ class ExperienceUnit extends Component {
 
   render() {
 
-    const imageUrl = 'https://res.cloudinary.com/naruthk/image/upload/c_scale,w_500,dpr_auto/naruthk.com/' + this.props.cloudinaryImageUrl + '.jpg'
+    const imageUrl = 'https://res.cloudinary.com/naruthk/image/upload/c_scale,w_350,dpr_auto/naruthk.com/' + this.props.cloudinaryImageUrl + '.jpg'
     
     return (
       <LazyLoad height={200}>
