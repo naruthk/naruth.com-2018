@@ -14,15 +14,18 @@ import './style.scss'
 import favicon16 from '../assets/favicons/favicon-16x16.png'
 import favicon32 from '../assets/favicons/favicon-32x32.png'
 
-var WebFont = require('webfontloader');
-
-WebFont.load({
-  google: {
-    families: ['Chivo:300,400,500,600,700', 'Open Sans']
-  }
-});
+import WebFont from 'webfontloader';
 
 class TemplateWrapper extends React.Component {
+
+  componentDidMount() {
+    WebFont.load({
+      google: {
+        families: ['Chivo:300,400,500,600,700', 'Open Sans']
+      }
+    });
+  }
+
   render () {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const siteKeywords = get(this, 'props.data.site.siteMetadata.keywords')
@@ -47,7 +50,11 @@ class TemplateWrapper extends React.Component {
             { rel: 'icon', type: 'image/png', sizes: '16x16', href: favicon16 },
             { rel: 'icon', type: 'image/png', sizes: '32x32', href: favicon32 }
           ]}
-        ><html lang="en" /></Helmet>
+        >
+          <html lang="en" />
+          <meta name="viewport" content="width=device-width,initial-scale=1" />
+          {/* <script src="/webfont-1.6.26.js" async="" id="webfontloader"></script> */}
+        </Helmet>
         <div className="template-wrapper-children">
           <Navigation />
           { children() }
