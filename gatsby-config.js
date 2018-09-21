@@ -58,7 +58,6 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-subfont`,
     `gatsby-plugin-sharp`,
-    'gatsby-plugin-offline',
   ],
   siteMetadata: {
     title: 'Naruth Kongurai',
