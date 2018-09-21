@@ -9,6 +9,9 @@ import { faHome, faUser, faNewspaper, faEnvelope, faArrowLeft, faArrowRight } fr
 
 library.add(fab, faHome, faUser, faNewspaper, faEnvelope, faArrowLeft, faArrowRight)
 
+require('typeface-chivo')
+require('typeface-open-sans')
+
 import './style.scss'
 
 import favicon16 from '../assets/favicons/favicon-16x16.png'

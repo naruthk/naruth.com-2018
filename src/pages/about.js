@@ -21,7 +21,7 @@ export default class AboutPage extends React.Component {
           <Header />
           <section>
             <h3 className="bold">About</h3>
-            <h4 className="subtitle">I'm a frontend developer based in Seattle, Washington.</h4>
+            <h1 className="subtitle">I'm a frontend developer based in Seattle, Washington.</h1>
             <p>I enjoy putting time into developing complex, user-friendly applications that are challenging to design and develop. When I'm not coding, prototyping or reading about technology, you'll find me walking my dog, watching Premier League soccer or listening to songs in my wonderful set of Spotify playlists.</p>
           </section>
         </div>

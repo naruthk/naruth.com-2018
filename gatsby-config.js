@@ -2,16 +2,6 @@ module.exports = {
   plugins: [
     'gatsby-plugin-sass',
     {
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: [
-          `chivo\:300,400,500`,
-          `open sans\:300,400,500`,
-          `sans-serif`
-        ]
-      }
-    },
-    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -54,3 +44,15 @@ module.exports = {
     url: 'https://www.naruthk.com',
   }
 };
+
+
+// {
+//   resolve: `gatsby-plugin-google-fonts`,
+//   options: {
+//     fonts: [
+//       `chivo\:300,400,500`,
+//       `open sans\:300,400,500`,
+//       `sans-serif`
+//     ]
+//   }
+// },

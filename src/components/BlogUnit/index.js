@@ -8,7 +8,7 @@ class BlogPostUnit extends Component {
     return (
       <div className="blog-post-unit">
         <div className="title">
-        <Link to={this.props.link}>{this.props.title}</Link>
+          <Link to={this.props.link}><h2>{this.props.title}</h2></Link>
         </div>
         <div className="time-period">
           {this.props.timeperiod}

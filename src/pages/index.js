@@ -38,7 +38,7 @@ export default class IndexPage extends React.Component {
 
           {/* <AnimatedPortrait /> */}
 
-          <h3 className="bold">I <span className="pop-up" data-info="Sketch, Adobe Photoshop, Adobe XD, Figma, Invision">design</span> and build <span className="pop-up" data-info="JavaScript, React, Node.JS, PHP, Express, MongoDB, GraphQL, Wordpress, Chrome Extension">web</span> and <span className="pop-up" data-info="iOS, Android, Swift, Kotlin, Java, Google Firebase, Google APIs, AWS Incognito, Genymotion, Flutter, React Native">mobile</span> apps with emphasis on producing user-friendly and useful products.</h3>
+          <h1>I <span className="pop-up" data-info="Sketch, Adobe Photoshop, Adobe XD, Figma, Invision">design</span> and build <span className="pop-up" data-info="JavaScript, React, Node.JS, PHP, Express, MongoDB, GraphQL, Wordpress, Chrome Extension">web</span> and <span className="pop-up" data-info="iOS, Android, Swift, Kotlin, Java, Google Firebase, Google APIs, AWS Incognito, Genymotion, Flutter, React Native">mobile</span> apps with emphasis on producing user-friendly and useful products.</h1>
 
           <br/>
 

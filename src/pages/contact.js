@@ -22,9 +22,10 @@ export default class Contact extends React.Component {
           
             <h3 className="bold">Contact</h3>
 
-            <h4>I will promply respond to your message within a day or so!</h4>
+            <h1>Let's work together.</h1>
 
-            <p>As a quick update, I am currently looking for employment in areas related to website development (frontend). I'm mostly interested in locations such as Seattle, Redmond (Washington state), Los Angeles, and San Francisco Bay Area.</p>
+            <p>I'm open to full-time opportunities (and freelancing)! So please leave me a message. I will promply respond to your message within a day or so!</p>
+            
             
           </section>
 
