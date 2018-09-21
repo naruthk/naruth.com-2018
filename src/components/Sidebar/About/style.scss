@@ -11,7 +11,7 @@ $margin-bottom: 40px;
     max-width: $max-width;
     height: 180px;
     background-size: cover;
-    background-image: url('https://res.cloudinary.com/naruthk/image/upload/c_scale,w_220/naruthk.com/general/naruthk.jpg');
+    background-image: url('https://res.cloudinary.com/naruthk/image/upload/q_80,c_scale,w_220/naruthk.com/general/naruthk.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     border-radius: 50%;
@@ -34,6 +34,10 @@ $margin-bottom: 40px;
     max-width: $max-width;
     line-height: 2.8rem;
     font-size: 1.8rem;
+
+    span.bold {
+      font-weight: 600;
+    }
 
     .emoji {
       font-size: 1.6rem;

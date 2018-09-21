@@ -2,8 +2,6 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import get from 'lodash/get'
 import Navigation from '../components/Navigation'
-import 'typeface-chivo';
-import 'typeface-open-sans';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -15,6 +13,14 @@ import './style.scss'
 
 import favicon16 from '../assets/favicons/favicon-16x16.png'
 import favicon32 from '../assets/favicons/favicon-32x32.png'
+
+var WebFont = require('webfontloader');
+
+WebFont.load({
+  google: {
+    families: ['Chivo:300,400,500,600,700', 'Open Sans']
+  }
+});
 
 class TemplateWrapper extends React.Component {
   render () {
