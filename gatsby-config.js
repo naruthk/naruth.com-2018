@@ -1,16 +1,15 @@
 module.exports = {
   plugins: [
     'gatsby-plugin-sass',
-    // {
-    //   resolve: `gatsby-plugin-google-fonts`,
-    //   options: {
-    //     fonts: [
-    //       `chivo\:300,600`,
-    //       `sans-serif`,
-    //       `open sans\:300,600`
-    //     ]
-    //   }
-    // },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `chivo\:300,400,500,600`,
+          `sans-serif`
+        ]
+      }
+    },
     {
       resolve: "gatsby-plugin-guess-js",
       options: {

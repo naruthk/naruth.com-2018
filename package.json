@@ -23,6 +23,7 @@
     "gatsby-image": "^1.0.55",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-google-analytics": "^1.0.24",
+    "gatsby-plugin-google-fonts": "0.0.4",
     "gatsby-plugin-guess-js": "^1.0.0",
     "gatsby-plugin-manifest": "^2.0.2",
     "gatsby-plugin-offline": "^2.0.5",

@@ -14,17 +14,7 @@ import './style.scss'
 import favicon16 from '../assets/favicons/favicon-16x16.png'
 import favicon32 from '../assets/favicons/favicon-32x32.png'
 
-import WebFont from 'webfontloader';
-
 class TemplateWrapper extends React.Component {
-
-  componentDidMount() {
-    WebFont.load({
-      google: {
-        families: ['Chivo:300,400,500,600,700', 'Open Sans']
-      }
-    });
-  }
 
   render () {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
