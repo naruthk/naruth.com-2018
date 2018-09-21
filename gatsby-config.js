@@ -5,7 +5,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `chivo\:300,400,500,600`,
+          `chivo\:300,400,500`,
+          `open sans\:300,400,500`,
           `sans-serif`
         ]
       }
@@ -44,7 +45,6 @@ module.exports = {
       }
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-subfont`,
     `gatsby-plugin-sharp`,
   ],
   siteMetadata: {
