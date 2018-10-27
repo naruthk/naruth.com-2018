@@ -9,7 +9,7 @@ class About extends Component {
       <div className="about">
           <Link to="/"><div className="image"></div></Link>
         <div className="bio">
-          <p><span className="bold">Front End Developer</span> who focuses on writing clean, elegant and reusable code.</p>
+          <p>Hello, I'm a <span className="bold">Front End Developer</span> from Thailand! Thanks for visiting.</p>
         </div>
       </div>
     )
