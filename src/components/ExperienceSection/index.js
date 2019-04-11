@@ -13,8 +13,8 @@ class ExperienceSection extends React.Component {
             colour='#FFFFFF'
             title='Dapper Grooming Inc.'
             link='https://www.dapperseattle.com/'
-            timeperiod={<span>Aug 2018 - <span className="present">Present</span></span>}
-            subtitle='Lead the web and mobile development team for an early-stage startup looking to reinvent the grooming industry.'
+            timeperiod='Aug 2018 - March 2019'
+            subtitle='Led the web and mobile development team for an early-stage startup looking to reinvent the grooming industry.'
           />
           <ExperienceUnit
             cloudinaryImageUrl='experience/uw-logo'

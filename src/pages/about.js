@@ -23,7 +23,7 @@ export default class AboutPage extends React.Component {
           <h3 className="bold">About</h3>
 
           <Section title="Nice to meet you.">
-            <p>I am Naruth Kongurai. I am a Front End Developer, currently working for Dapper Grooming, a technology startup in the grooming industry. To craft a beautiful product, I heavily utlize Sketch for design and React as my development framework.</p>
+            <p>I am Naruth Kongurai. I am a Full-Stack Developer!</p>
           </Section>
         </div>
 
@@ -59,7 +59,7 @@ export default class AboutPage extends React.Component {
           </Section>
 
           <Section title="And into the present:">
-            <p>Now I am currently residing in California, where I continue searching for employment opportunites in the United States.</p>
+            <p>Now I am currently residing in Bangkok, Thailand, where I continue searching for employment opportunites throughout Southeast Asia and also in the United States of America.</p>
             <p>As a fresh graduate, I have that burning passion and hunger to help startups and large corporations develop innovative, user-friendly products that people can impact their thoughts, interaction, and lives. </p>
             <p>Thank you so much for reading my personal story, and I hope you have a very beautiful day!</p>
             <p>— Naruth Kongurai</p>
