@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 import './style.scss'
 
@@ -9,10 +11,6 @@ class Links extends Component {
       {
         name: 'Home',
         href: '/',
-      },
-      {
-        name: 'About',
-        href: '/about',
       },
       {
         name: 'Blog',
@@ -30,19 +28,9 @@ class Links extends Component {
         href: 'https://www.github.com/naruthk',
       },
       {
-        className: 'twitter',
-        name: 'Twitter',
-        href: 'https://www.twitter.com/naruthkongurai',
-      },
-      {
         className: 'linkedin',
         name: 'Linkedin',
         href: 'https://www.linkedin.com/in/naruthkongurai',
-      },
-      {
-        className: 'codepen',
-        name: 'Codepen',
-        href: 'https://codepen.io/naruthk',
       }
     ]
 
@@ -71,13 +59,22 @@ class Links extends Component {
               </li>
             )
           })}
+          <li className="icon">
+            <a 
+              href="https://www.twitter.com/naruthkongurai"
+              target="_blank" 
+              title="Twitter"
+              rel="noreferrer">
+              <FontAwesomeIcon icon={faTwitter} size="lg"/>
+            </a>
+          </li>
         </ul>
         
         <div className="small">
           Built with ❤️ using <a href="https://www.gatsbyjs.org/" target="_blank" rel="noreferrer">GatsbyJS</a>
         </div>
         <div className="small">
-          &copy; 2017-2018 . Naruth Kongurai
+          &copy; 2019. Naruth Kongurai
         </div>
       </div>
     )
